@@ -1,0 +1,1 @@
+import { nameOne, nameTwo } from "./names.js";

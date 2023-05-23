@@ -6,28 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Name Generator</title>
-    <script src="js/main.js" defer></script>
+    <script src="js/main.js" type="module"></script>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <header>
-        <h1>Random Name Generator</h1>
+        <h1>Random Gnome Name Generator</h1>
     </header>
     
     <main>
         <section class="submitSection">
             <h2 id="formHeader" class="offscreen"></h2>
             <form id="submitForm" class="submitSection__form">
-                <input 
+                <!-- <input 
                     type="text"
                     id="submitSection__textInput"
                     class="submitSection__textInput"
                     required
                     maxlength="20"
                     placeholder="Type Here"
-                    aria-labelledby="formHeader">
+                    aria-labelledby="formHeader"> -->
                 <button class="submitSection__button" aria-label="Submit">
                     <i class="fa-solid fa-check"></i>
                 </button>
@@ -35,9 +35,10 @@
          </section>
 
          <section id="suggestionSection" class="suggestionSection hidden">
-            <h2>Suggestions:</h2>
+            <h2>Generated Names:</h2>
             <ol></ol>
-            <p>Click the name to check availability</p>
+            <p>Click a name to open a new tab and check blizzard for servers that have availability.
+             </p>
          </section>
     </main>
 </body>

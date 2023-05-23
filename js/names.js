@@ -22,5 +22,5 @@ export const nameTwo = {
     6: "Nut",
     7: "Dizzy",
     8: "F41c0rn",
-    9: "rust",
+    9: "Rust",
 }

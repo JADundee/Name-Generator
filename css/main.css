@@ -16,14 +16,15 @@ html {
 body {
     min-height: 100vh;
     background-color: rgba(62, 61, 61, 0.101);
-    background-image: url(/img/R.jfif);
+    background-image: url(/img/R2.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
     background-position: center;
-    width: 100%;
-    max-width: 500px;
+    width: 75%;
+    max-width: 575px;
     margin: 0 auto;
+    flex-grow: 1;
 }
 
 header, main {
@@ -43,8 +44,11 @@ header {
 }
 
 header h1 {
+    padding-left: 5px;
     color: rgb(221, 195, 0);
     font-weight: lighter;
+    border: 1mm outset rgb(79, 79, 79);
+    box-shadow: 1px -1px rgb(7, 7, 7), -1px 1px rgb(7, 7, 7), inset 0 0 5px 1px black;
 }
 
 main {

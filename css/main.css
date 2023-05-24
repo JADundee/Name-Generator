@@ -6,26 +6,30 @@
 
 html {
     font-size: 16px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: 1.35;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-optical-sizing: auto;
+    letter-spacing: 1px;
     color: black;
 }
 
 body {
     min-height: 100vh;
-    background-color: brown;
-    background-image: ;
+    background-color: rgba(62, 61, 61, 0.101);
+    background-image: url(/img/R.jfif);
     background-size: cover;
+    background-repeat: no-repeat;
     background-blend-mode: overlay;
+    background-position: center;
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
     padding: 10px;
+    
 }
 
 header, main {
-    background-color: grey;
-    border: 1px solid white;
+    background-color: rgb(63, 61, 61);
+    border: 2mm ridge rgba(116, 114, 114, 0.438);
     padding: 20px;
 }
 
@@ -34,6 +38,11 @@ header {
     justify-content: space-evenly;
     align-items: center;
     gap: 10px;
+}
+
+header h1 {
+    color: rgb(221, 195, 0);
+    font-weight: lighter;
 }
 
 main {
@@ -67,7 +76,9 @@ section {
     min-height: 48px;
     cursor: crosshair;
     letter-spacing: 1.35px;
-    font-weight: bold;
+    color: rgb(221, 195, 0);
+    background-color: rgb(124, 0, 0);
+    border: 2mm ridge rgb(119, 119, 119);
 }
 
 .suggestionSection {
@@ -75,14 +86,27 @@ section {
 }
 
 .suggestionSection h2 {
-    padding-bottom: 20px;
+    border: 2mm ridge rgb(119, 119, 119);
+    font-weight: lighter;
+    margin-bottom: 20px;
+    color: rgb(221, 195, 0);
+}
+
+.suggestionSection p {
+    margin-top: 1.5rem;
+    color: rgb(221, 195, 0);
+    border: 2mm ridge rgb(119, 119, 119);
+    border-width: 100%;
 }
 
 .suggestionSection a,
 .suggestionSection a:hover,
 .suggestionSection a:focus {
-    color: white;
-    text-decoration: none;
+    color: rgb(255, 145, 0);
+}
+
+li {
+    color: rgb(221, 195, 0);
 }
 
 ol {

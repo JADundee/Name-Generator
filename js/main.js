@@ -40,9 +40,9 @@ const displayNames = (namesArray) => {
     // const rawRegion = document.getElementById("submitSection__textInput").value;
     // const region = sanitizeInput(rawRegion);
     namesArray.forEach(name => {
-        list.innerHTML += `<li>
+        list.innerHTML += `<ul>
             <a href="https://worldofwarcraft.blizzard.com/en-us/search?q=${name}" target="_blank">${name}</a>
-            </li>`;
+            </ul>`;
             /* list.innerHTML += `<li>
             <a href="https://yoututbe.com/${name}" target="_blank">${name}</a></li>`;
             list.innerHTML += `<ul>

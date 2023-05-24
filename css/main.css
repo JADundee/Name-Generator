@@ -25,6 +25,7 @@ body {
     max-width: 575px;
     margin: 0 auto;
     flex-grow: 1;
+
 }
 
 header, main {
@@ -132,32 +133,18 @@ section {
 .suggestionSection a:hover,
 .suggestionSection a:focus {
     color: rgb(255, 145, 0);
+    text-decoration-line: none;
 }
 
 .suggestionSection a:active {
     color: rgb(160, 1, 160);
 }
 
-li {
-    color: rgb(221, 195, 0);
+.suggestionSection a:active,
+.suggestionSection a:visited {
+    color: rgb(160, 1, 160);
+    text-decoration: line-through;
 }
-
-ol {
-    margin-left: 40px;
-    word-break: break-all;
-    font-size: 1.15rem;
-}
-
-/* ol > ul {
-    padding-bottom: 10px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-
-ul > li {
-    margin-top: 10px;
-
-} */
 
 .offscreen {
     position: absolute;

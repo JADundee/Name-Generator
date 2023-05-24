@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    cursor: url(../img/cursorM.cur) 24 24, default;
+    cursor: url(../img/cursorM.cur) 32 30, default;
 }
 
 html {
@@ -61,7 +61,7 @@ main {
 section {
     position: relative;
 }
-/*  ------- */
+/*  ------- */ 
 .submitSection__form {
     width: 100%;
     display: flex;

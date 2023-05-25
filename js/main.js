@@ -59,3 +59,26 @@ const sanitizeInput = (inputValue) => {
     div.textContent = inputValue;
     return div.innerHTML;
 }
+
+var regionObject = {
+    "Americas & Oceanic": ["Name", "DEF", "OWN"],
+    "Europe": ["Nam", "def", "own"],
+    "Korea": [],
+    "Taiwan": []
+}
+  window.onload = function() {
+    var regionSel = document.getElementById("regions"),
+        serverSel = document.getElementById("servers");
+    for (var x in regionObject) {
+      regionSel.options[regionSel.options.length] = new Option(x, x);
+    }
+    regionSel.onchange = function () {
+        serverSel.length = 1;
+        if (this.selectededIndex < 1) return;
+       var xy = regionObject[this.value];
+       for (var y in regionObject[this.value]) {
+        serverSel.options[serverSel.options.length] = new Option(xy[y], y);
+       }
+    }
+    regionSel.onchange();
+}

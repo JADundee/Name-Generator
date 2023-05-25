@@ -14,26 +14,46 @@
 </head>
 
 <body>
+
     <header>
         <h1>Random Gnome Name Generator</h1>
     </header>
     
     <main>
+
         <section class="submitSection">
+
             <h2 id="formHeader" class="offscreen"></h2>
-            <form id="submitForm" class="submitSection__form">
-                <!-- <input 
-                    type="text"
-                    id="submitSection__textInput"
-                    class="submitSection__textInput"
-                    required
-                    maxlength="20"
-                    placeholder="Type Here"
-                    aria-labelledby="formHeader"> -->
+
+
+            <form name="submitForm" id="submitForm" class="submitSection__form" >
+                Regions: <select name="regions" id="regions">
+                  <option value="" selected="selected">Select region</option>
+                </select>
+                <br><br>
+                Servers: <select name="servers" id="servers">
+                  <option value="" selected="selected">Please select region first</option>
+                </select>
+               
+
+            <!-- <form id="submitForm" class="submitSection__form">
+                
+                Regions: 
+                <select name="regions" id="regions">
+                    <option value="" selected="selected">Select your Region
+                    </option>
+                </select>
+                Servers: 
+                <select name="servers" id="servers">
+                    <option value="" selected="selected">Select your Server</option>
+                </select> -->
+        
                 <button class="submitSection__button" aria-label="Submit">
                     <i class="fa-solid fa-dice" style="color: #dcdcdc;"></i> Roll Names
-                </button>
+                </button> 
+
             </form>
+
          </section>
 
          <section id="suggestionSection" class="suggestionSection hidden">
@@ -43,6 +63,9 @@
             <p>Click a name to open a new tab & check blizzard for servers that have availability.
              </p>
          </section>
+
     </main>
+
 </body>
+
 </html>

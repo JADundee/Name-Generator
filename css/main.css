@@ -110,8 +110,6 @@ section {
     color: rgb(221, 195, 0);
     box-sizing: content-box;
     box-shadow: inset 0 0 5px 1px black;
-    width: 100%;
-    border-width: 100%;
 }
 
 .suggestionSection p {
@@ -136,14 +134,8 @@ section {
     text-decoration-line: none;
 }
 
-.suggestionSection a:active {
-    color: rgb(160, 1, 160);
-}
-
-.suggestionSection a:active,
 .suggestionSection a:visited {
     color: rgb(160, 1, 160);
-    text-decoration: line-through;
 }
 
 .offscreen {

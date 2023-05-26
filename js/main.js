@@ -71,8 +71,8 @@ var regionObject = {
     "Taiwan": ["Arthas", "Arygos", "Bleeding Hollow", "Chillwind Point", "Crystalpine Stinger", "Demon Fall Canyon", "Dragonmaw", "Frostmane", "Hellscream", "Icecrown", "Krol Blade", "Light's Hope", "Menethil", "Nightsong", "Old Blanchy", "Order of the Cloud Serpent", "Quel'dorei", "Shadowmoon", "Silverwing Hold", "Skywall", "Spirestone", "Stormscale", "Sundown Marsh", "Whisperwind", "World Tree", "Wrathbringer", "Zealot Blade"]
 }
   window.onload = function() {
-    var regionSel = document.getElementById("regions"),
-        serverSel = document.getElementById("servers");
+    var regionSel = document.getElementById("submitSection__regions"),
+        serverSel = document.getElementById("submitSection__servers");
     for (var x in regionObject) {
       regionSel.options[regionSel.options.length] = new Option(x, x);
     }

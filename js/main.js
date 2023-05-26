@@ -37,18 +37,16 @@ const generateNames = () => {
 
 const displayNames = (namesArray) => {
     const list = document.querySelector('.suggestionSection ol');
-    // const rawRegion = document.getElementById("submitSection__textInput").value;
-    // const region = sanitizeInput(rawRegion);
+    const region = document.getElementById("submitSection__regions").value;
+    const server = document.getElementById("submitSection__servers").value
     namesArray.forEach(name => {
-        list.innerHTML += `<ul>
+       /*  list.innerHTML += `<ul>
             <a href="https://worldofwarcraft.blizzard.com/en-us/search?q=${name}" target="_blank">${name}</a>
             </ul>`;
-            /* list.innerHTML += `<li>
-            <a href="https://yoututbe.com/${name}" target="_blank">${name}</a></li>`;
+ */
             list.innerHTML += `<ul>
-            <li><a href="https://youtube.com/${firstName}s${name}" target="_blank">${firstName}s${name}</a></li>
-            <li><a href="https://youtube.com/${name}With${firstName}" target="_blank">${name}With${firstName}</a></li>
-            </ul>`; */
+            <a href="https://worldofwarcraft.blizzard.com/en-us/character/${region}/${server}/${name}" target="_blank">${name}</a>
+            </ul>`;
     });
     const display = document.getElementById("suggestionSection");
     if (display.classList.contains("hidden")) display.classList.toggle("hidden");

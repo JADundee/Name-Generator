@@ -22,7 +22,7 @@ const clearSuggestions = () => {
 const generateNames = () => {
     const randomNumberArray = [];
     for (let i = 0; i < 4;) {
-        const randomNumber = Math.floor(Math.random() * 10);
+        const randomNumber = Math.floor(Math.random() * 63);
         if (randomNumberArray.includes(randomNumber)) continue;
         randomNumberArray.push(randomNumber);
         i++;

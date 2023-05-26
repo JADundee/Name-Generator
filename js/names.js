@@ -57,7 +57,11 @@ export const nameOne = {
     55: "Oglethorpe",
     56: "Silas",
     57: "Tinkmaster",
-    58: "Walton"
+    58: "Walton",
+    59: "Cranky",
+    60: "Gunny",
+    61: "Wizz",
+    62: "Wizzbang"
 }
 
 

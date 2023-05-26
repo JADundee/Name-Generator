@@ -27,32 +27,21 @@
 
 
             <form name="submitForm" id="submitForm" class="submitSection__form" >
-                Regions: <select name="regions" id="regions">
-                    <option selected disabled>Select your Region</option>
+                Region: <select name="submitSection__regions" id="submitSection__regions" required>
+                    <option selected disabled value="">Select your Region</option>
                 </select>
                 <br><br>
-                Servers: <select name="servers" id="servers">
-                  <option selected disabled>Please select region first</option>
+                Server: <select name="submitSection__servers" id="submitSection__servers" required>
+                  <option selected disabled value="">Please select region first</option>
                 </select>
-               
 
-            <!-- <form id="submitForm" class="submitSection__form">
-                
-                Regions: 
-                <select name="regions" id="regions">
-                    <option value="" selected="selected">Select your Region
-                    </option>
-                </select>
-                Servers: 
-                <select name="servers" id="servers">
-                    <option value="" selected="selected">Select your Server</option>
-                </select> -->
-        
-                <button class="submitSection__button" aria-label="Submit">
+                <button class="submitSection__button" aria-label="Submit" type="submit" formaction="https://worldofwarcraft.blizzard.com/">
                     <i class="fa-solid fa-dice" style="color: #dcdcdc;"></i> Roll Names
-                </button> 
+                </button>
 
             </form>
+
+            
 
          </section>
 

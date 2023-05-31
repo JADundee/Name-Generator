@@ -146,6 +146,7 @@ section {
     box-shadow: 1px -1px rgb(7, 7, 7), -1px 1px rgb(7, 7, 7), inset 0 0 5px 1px black;
     width: 50%;
     margin-left: 25%;
+    overflow: hidden;
 }
 
 .suggestionSection a:hover,

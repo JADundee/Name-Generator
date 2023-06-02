@@ -1,4 +1,4 @@
-export const nameOne = {
+export const taurenNameOne = {
     0: "Tuqa",
     1: "Tadita",
     2: "Obo",
@@ -22,7 +22,7 @@ export const nameOne = {
     20: "Byrul",
     21: "Orox",
     22: "Rustler",
-    23: "Ratchet",
+    23: "Ratchet", //TODO:
     24: "Abraxas",
     25: "Lorcan",
     26: "Morded",
@@ -65,7 +65,7 @@ export const nameOne = {
 }
 
 
-export const nameTwo = {
+export const taurenNameTwo = {
     0: "Steelhoof",
     1: "Blackhair",
     2: "Gloomhammer",

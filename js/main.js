@@ -1,10 +1,11 @@
 import { gnomeNameOne, gnomeNameTwo } from "./gnome.js";
+import { taurenNameOne, taurenNameTwo } from "./tauren.js";
 
 const initApp = () => {
     document.getElementById("submitForm").addEventListener("submit", (event) => {
         event.preventDefault();
         clearSuggestions();
-        //TODO: Race to generate names
+        // selected Race function
         const namesArray = generateNames();
         console.log(namesArray);
         displayNames(namesArray);
@@ -20,9 +21,21 @@ const clearSuggestions = () => {
     list.innerHTML = "";
 }
 
-// TODO: Race to generate names
+
 
 const generateNames = () => {
+    const raceSelection = document.getElementById("submitSection__races").value;
+    console.log(raceSelection)
+    if (raceSelection === "Gnome") {
+       var nameOne = gnomeNameOne;
+       var nameTwo = gnomeNameTwo 
+    }
+    if (raceSelection === "Tauren") {
+        var nameOne = taurenNameOne;
+        var nameTwo = taurenNameTwo
+    }
+
+
     const randomNumberArray = [];
     for (let i = 0; i < 4;) {
         const randomNumber = Math.floor(Math.random() * 63);

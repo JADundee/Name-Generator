@@ -22,7 +22,7 @@ export const taurenNameOne = {
     20: "Byrul",
     21: "Orox",
     22: "Rustler",
-    23: "Ratchet", //TODO:
+    23: "Kapol",
     24: "Abraxas",
     25: "Lorcan",
     26: "Morded",

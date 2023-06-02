@@ -128,6 +128,5 @@ export const gnomeNameTwo = {
     59: "Darkmoon",
     60: "Overspark",
     61: "Erazmin",
-    62: "Cogfrenzy",
-    63: ""
+    62: "Cogfrenzy"
 }

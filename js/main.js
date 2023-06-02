@@ -35,7 +35,7 @@ const generateNames = () => {
         var nameTwo = taurenNameTwo
     }
 
-
+    //TODO: update second randomNumberArray to include 0 
     const randomNumberArray = [];
     for (let i = 0; i < 4;) {
         const randomNumber = Math.floor(Math.random() * 63);
@@ -43,10 +43,14 @@ const generateNames = () => {
         randomNumberArray.push(randomNumber);
         i++;
     }
-    const suggestion1 = nameOne[randomNumberArray[0]] + nameTwo[randomNumberArray[3]];
-    const suggestion2 = nameOne[randomNumberArray[1]] + nameTwo[randomNumberArray[0]];
-    const suggestion3 = nameOne[randomNumberArray[2]] + nameTwo[randomNumberArray[2]];
-    const suggestion4 = nameOne[randomNumberArray[3]] + nameTwo[randomNumberArray[1]];
+    const suggestion1 = nameOne[randomNumberArray[0]] 
+    + nameTwo[randomNumberArray[3]];
+    const suggestion2 = nameOne[randomNumberArray[1]] 
+    + nameTwo[randomNumberArray[0]];
+    const suggestion3 = nameOne[randomNumberArray[2]] 
+    + nameTwo[randomNumberArray[2]];
+    const suggestion4 = nameOne[randomNumberArray[3]] 
+    + nameTwo[randomNumberArray[1]];
 
     return [suggestion1, suggestion2, suggestion3, suggestion4];
 }

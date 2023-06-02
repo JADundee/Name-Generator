@@ -26,11 +26,11 @@ const clearSuggestions = () => {
 const generateNames = () => {
     const raceSelection = document.getElementById("submitSection__races").value;
     console.log(raceSelection)
-    if (raceSelection === "Gnome") {
+    if (raceSelection === "gnome") {
        var nameOne = gnomeNameOne;
        var nameTwo = gnomeNameTwo 
     }
-    if (raceSelection === "Tauren") {
+    if (raceSelection === "tauren") {
         var nameOne = taurenNameOne;
         var nameTwo = taurenNameTwo
     }

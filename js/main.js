@@ -1,4 +1,4 @@
-import { gnomeNameOne, gnomeNameTwo } from "./gnomeNames.js";
+import { gnomeNameOne, gnomeNameTwo } from "./gnome.js";
 
 const initApp = () => {
     document.getElementById("submitForm").addEventListener("submit", (event) => {

@@ -1,4 +1,4 @@
-export const gnomeNameOne = {
+export const orcNameOne = {
     0: "Thragg",
     1: "Grulm",
     2: "Gorrok",
@@ -65,7 +65,7 @@ export const gnomeNameOne = {
 }
 
 
-export const gnomeNameTwo = {
+export const orcNameTwo = {
     0: "Bloodfang",
     1: "Blackskull",
     2: "Ironhide",

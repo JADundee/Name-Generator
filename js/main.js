@@ -1,5 +1,6 @@
 import { gnomeNameOne, gnomeNameTwo } from "./gnome.js";
 import { taurenNameOne, taurenNameTwo } from "./tauren.js";
+import { orcNameOne, orcNameTwo } from "./orc.js";
 
 const initApp = () => {
     document.getElementById("submitForm").addEventListener("submit", (event) => {
@@ -34,6 +35,10 @@ const generateNames = () => {
         var nameOne = taurenNameOne;
         var nameTwo = taurenNameTwo
     }
+    if (raceSelection === "orc") {
+        var nameOne = orcNameOne;
+        var nameTwo = orcNameTwo
+    }
 
     //TODO: update second randomNumberArray to include 0 
     const randomNumberArray = [];
@@ -67,6 +72,23 @@ const displayNames = (namesArray) => {
     });
     const display = document.getElementById("suggestionSection");
     if (display.classList.contains("hidden")) display.classList.toggle("hidden");
+
+
+    /* let url = `https://worldofwarcraft.blizzard.com/en-us/character/${region}/${server}/${name}`;
+    function urlExists(url, callback) {
+    fetch(url, { method: 'head' })
+    .then(function(status) {
+      callback(status.ok)
+    });
+  }
+  
+    urlExists(url, function(exists) {
+        if (exists) {
+        alert(`${name} is available on ${serverSel}!`)
+        } else {
+        alert(`${name} is taken on ${serverSel}.`)
+        }
+}); */
     
 }
 
@@ -97,3 +119,4 @@ var regionObject = {
     }
     regionSel.onchange();
 }
+

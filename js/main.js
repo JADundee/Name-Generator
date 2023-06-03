@@ -1,6 +1,9 @@
 import { gnomeNameOne, gnomeNameTwo } from "./gnome.js";
 import { taurenNameOne, taurenNameTwo } from "./tauren.js";
 import { orcNameOne, orcNameTwo } from "./orc.js";
+import { mechagnomeNameOne, mechagnomeNameTwo } from "./mechagnome.js";
+import { darkIronDwarfNameOne, darkIronDwarfNameTwo } from "./darkIronDwarf.js";
+import { dwarfNameOne, dwarfNameTwo } from "./dwarf.js";
 
 const initApp = () => {
     document.getElementById("submitForm").addEventListener("submit", (event) => {
@@ -39,6 +42,20 @@ const generateNames = () => {
         var nameOne = orcNameOne;
         var nameTwo = orcNameTwo
     }
+    if (raceSelection === "mechagnome") {
+        var nameOne = mechagnomeNameOne;
+        var nameTwo = mechagnomeNameTwo 
+     }
+    if (raceSelection === "darkIronDwarf") {
+        var nameOne = darkIronDwarfNameOne;
+        var nameTwo = darkIronDwarfNameTwo 
+     }
+    if (raceSelection === "dwarf") {
+        var nameOne = dwarfNameOne;
+        var nameTwo = dwarfNameTwo 
+     }
+     
+
 
     //TODO: update second randomNumberArray to include 0 
     const randomNumberArray = [];

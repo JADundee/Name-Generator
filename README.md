@@ -6,12 +6,12 @@
   #  blood elf: [void elf]
   # dracthyr
   # draenei: [lightforged draenei] 
-  #  dwarf: [dark iron dwarf]
+  #  dwarf
   #  goblin
   #  humans: [kul tiran]
   #  *gnome: [mechagnomes]
   #  night elf: [nightborne]
-  #  orc: [mag'har orc]
+  #  *orc: [mag'har orc]
   #  pandaren
   #  *tauren: [highmountain tauren]
   #  troll: [zanadalari troll]

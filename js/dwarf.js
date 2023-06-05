@@ -3,7 +3,7 @@ export const dwarfNameOne = {
     1: "Magni",
     2: "Falstad",
     3: "Velog",
-    4: "Oilfist",
+    4: "",
     5: "Dungard",
     6: "Modimus",
     7: "Madoran",

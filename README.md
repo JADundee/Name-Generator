@@ -1,20 +1,25 @@
 # TODO: 
 # Allow CORS access
-# resize suggestion sectoin to fit borders
-# Add CSS for race selection
+# Update styling
 # integrate races: {
-  #  blood elf: [void elf]
-  # dracthyr
-  # draenei: [lightforged draenei] 
-  #  dwarf
+  #  blood elf
+  #  dracthyr
+  #  draenei 
   #  goblin
-  #  humans: [kul tiran]
-  #  night elf: [nightborne]
-  #  *orc: [mag'har orc]
+  #  humans
+  #  kul tiran
+  #  lightforged draenei
+  #  night elf: 
+  #  mag'har orc
+  #  nightnorne
   #  pandaren
-  #  *tauren: [highmountain tauren]
-  #  troll: [zanadalari troll]
+  #  highmountain tauren
+  #  troll
   #  undead
+  #  void elf
   #  vulpara
   #  worgen
-}
+  #  zanadalari troll
+
+
+# Split generator into male/female and add the dropdown menu

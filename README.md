@@ -1,7 +1,7 @@
 # TODO: 
 # Allow CORS access
 # Update styling
-# integrate races: {
+# integrate races:
   #  blood elf
   #  dracthyr
   #  draenei 
@@ -22,7 +22,17 @@
   #  zanadalari troll
 
 
-# Split generator into male/female and add the dropdown menu
+# Upddate to seperate female/male name ones:
+  # DARKIRON DWARF
+  # DWARF
+  # GNOME
+  # MECHAGNOME
+  # ORC
+  # TAUREN
 
 
 # for more names use wowhead city pages for npc names tab
+
+
+# Refactor generateNames() to ternary
+# Allow for nameTwo to = 0

@@ -64,7 +64,7 @@ export const lightforgedDraeneiNameOneM = {
     62: ""
 }
 
-export const lightforgeDraeneiNameOneF = {
+export const lightforgedDraeneiNameOneF = {
     0: "",
     1: "",
     2: "",

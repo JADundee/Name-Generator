@@ -8,7 +8,7 @@ import { goblinNameOneM, goblinNameOneF, goblinNameTwo } from "./goblin.js";
 import { highmountainTaurenNameOneM, highmountainTaurenNameOneF, highmountainTaurenNameTwo } from "./highmountainTauren.js";
 import { humanNameOneM, humanNameOneF, humanNameTwo } from "./human.js";
 import { kulTiranNameOneM, kulTiranNameOneF, kulTiranNameTwo } from "./kulTiran.js";
-import { lightforgedDraeneiNameOneM, lightforgeDraeneiNameOneF, lightforgedDraeneiNameTwo } from "./lightforgedDraenei.js";
+import { lightforgedDraeneiNameOneM, lightforgedDraeneiNameOneF, lightforgedDraeneiNameTwo } from "./lightforgedDraenei.js";
 import { magharOrcNameOneM, magharOrcNameOneF, magharOrcNameTwo } from "./mag'harOrc.js";
 import { mechagnomeNameOneM, mechagnomeNameOneF, mechagnomeNameTwo } from "./mechagnome.js";
 import { nightborneNameOneM, nightborneNameOneF, nightborneNameTwo } from "./nightborne.js";
@@ -53,218 +53,218 @@ const generateNames = () => {
 
     //TODO: ternary statement refactor
 
-    if (raceSelection === "bloodElf", sexSelection === "male") {
+    if (raceSelection === "bloodElf" && sexSelection === "male") {
         var nameOne = bloodElfNameOneM;
         var nameTwo = bloodElfNameTwo 
      }
-    if (raceSelection === "bloodElf", sexSelection === "female") {
+    if (raceSelection === "bloodElf" && sexSelection === "female") {
         var nameOne = bloodElfNameOneF;
         var nameTwo = bloodElfNameTwo 
      }
 
-    if (raceSelection === "darkironDwarf", sexSelection === "male") {
+    if (raceSelection === "darkironDwarf" && sexSelection === "male") {
         var nameOne = darkironDwarfNameOneM;
         var nameTwo = darkironDwarfNameTwo 
      }
-    if (raceSelection === "darkironDwarf", sexSelection === "female") {
+    if (raceSelection === "darkironDwarf" && sexSelection === "female") {
         var nameOne = darkironDwarfNameOneF;
         var nameTwo = darkironDwarfNameTwo 
      }
 
-     if (raceSelection === "dracthyr", sexSelection === "male") {
+     if (raceSelection === "dracthyr" && sexSelection === "male") {
         var nameOne = dracthyrNameOneM;
         var nameTwo = dracthyrNameTwo 
      }
-    if (raceSelection === "dracthyr", sexSelection === "female") {
+    if (raceSelection === "dracthyr" && sexSelection === "female") {
         var nameOne = dracthyrNameOneF;
         var nameTwo = dracthyrNameTwo 
      }
 
-     if (raceSelection === "draenei", sexSelection === "male") {
+     if (raceSelection === "draenei" && sexSelection === "male") {
         var nameOne = draeneiNameOneM;
         var nameTwo = draeneiNameTwo 
      }
-    if (raceSelection === "draenei", sexSelection === "female") {
+    if (raceSelection === "draenei" && sexSelection === "female") {
         var nameOne = draeneiNameOneF;
         var nameTwo = draeneiNameTwo 
      }
 
-    if (raceSelection === "dwarf", sexSelection === "male") {
+    if (raceSelection === "dwarf" && sexSelection === "male") {
         var nameOne = dwarfNameOneM;
         var nameTwo = dwarfNameTwo 
      }
-    if (raceSelection === "dwarf", sexSelection === "female") {
+    if (raceSelection === "dwarf" && sexSelection === "female") {
         var nameOne = dwarfNameOneF;
         var nameTwo = dwarfNameTwo 
      }
 
-    if (raceSelection === "gnome", sexSelection === "male") {
+    if (raceSelection === "gnome" && sexSelection === "male") {
        var nameOne = gnomeNameOneM;
        var nameTwo = gnomeNameTwo 
     }
-    if (raceSelection === "gnome", sexSelection === "female") {
+    if (raceSelection === "gnome" && sexSelection === "female") {
         var nameOne = gnomeNameOneF;
         var nameTwo = gnomeNameTwo
     }
 
-    if (raceSelection === "goblin", sexSelection === "male") {
+    if (raceSelection === "goblin" && sexSelection === "male") {
         var nameOne = goblinNameOneM;
         var nameTwo = goblinNameTwo 
      }
-    if (raceSelection === "goblin", sexSelection === "female") {
+    if (raceSelection === "goblin" && sexSelection === "female") {
         var nameOne = goblinNameOneF;
         var nameTwo = goblinNameTwo 
      }
 
-     if (raceSelection === "highmountainTauren", sexSelection === "male") {
+     if (raceSelection === "highmountainTauren" && sexSelection === "male") {
         var nameOne = highmountainTaurenNameOneM;
         var nameTwo = highmountainTaurenNameTwo 
      }
-    if (raceSelection === "highmountainTauren", sexSelection === "female") {
+    if (raceSelection === "highmountainTauren" && sexSelection === "female") {
         var nameOne = highmountainTaurenNameOneF;
         var nameTwo = highmountainTaurenNameTwo 
      }
 
-     if (raceSelection === "human", sexSelection === "male") {
+     if (raceSelection === "human" && sexSelection === "male") {
         var nameOne = humanNameOneM;
         var nameTwo = humanNameTwo 
      }
-    if (raceSelection === "human", sexSelection === "female") {
+    if (raceSelection === "human" && sexSelection === "female") {
         var nameOne = humanNameOneF;
         var nameTwo = humanNameTwo 
      }
 
-     if (raceSelection === "kulTiran", sexSelection === "male") {
+     if (raceSelection === "kulTiran" && sexSelection === "male") {
         var nameOne = kulTiranNameOneM;
         var nameTwo = kulTiranNameTwo 
      }
-    if (raceSelection === "kulTiran", sexSelection === "female") {
+    if (raceSelection === "kulTiran" && sexSelection === "female") {
         var nameOne = kulTiranNameOneF;
         var nameTwo = kulTiranNameTwo 
      }
 
-     if (raceSelection === "lightforgedDraenei", sexSelection === "male") {
+     if (raceSelection === "lightforgedDraenei" && sexSelection === "male") {
         var nameOne = lightforgedDraeneiNameOneM;
         var nameTwo = lightforgedDraeneiNameTwo 
      }
-    if (raceSelection === "lightforgedDraenei", sexSelection === "female") {
+    if (raceSelection === "lightforgedDraenei" && sexSelection === "female") {
         var nameOne = lightforgedDraeneiNameOneF;
         var nameTwo = lightforgedDraeneiNameTwo 
      }
 
-     if (raceSelection === "mag'harOrc", sexSelection === "male") {
+     if (raceSelection === "mag'harOrc" && sexSelection === "male") {
         var nameOne = magharOrcNameOneM;
         var nameTwo = magharOrcNameTwo 
      }
-    if (raceSelection === "mag'harOrc", sexSelection === "female") {
+    if (raceSelection === "mag'harOrc" && sexSelection === "female") {
         var nameOne = magharOrcNameOneF;
         var nameTwo = magharOrcNameTwo 
      }
 
-    if (raceSelection === "mechagnome", sexSelection === "male") {
+    if (raceSelection === "mechagnome" && sexSelection === "male") {
         var nameOne = mechagnomeNameOneM;
         var nameTwo = mechagnomeNameTwo 
      }
-    if (raceSelection === "mechagnome", sexSelection === "female") {
+    if (raceSelection === "mechagnome" && sexSelection === "female") {
         var nameOne = mechagnomeNameOneF;
         var nameTwo = mechagnomeNameTwo 
      }
 
-     if (raceSelection === "nightborne", sexSelection === "male") {
+     if (raceSelection === "nightborne" && sexSelection === "male") {
         var nameOne = nightborneNameOneM;
         var nameTwo = nightborneNameTwo 
      }
-    if (raceSelection === "nightborne", sexSelection === "female") {
+    if (raceSelection === "nightborne" && sexSelection === "female") {
         var nameOne = nightborneNameOneF;
         var nameTwo = nightborneNameTwo 
      }
 
-     if (raceSelection === "nightElf", sexSelection === "male") {
+     if (raceSelection === "nightElf" && sexSelection === "male") {
         var nameOne = nightElfNameOneM;
         var nameTwo = nightElfNameTwo 
      }
-    if (raceSelection === "nightElf", sexSelection === "female") {
+    if (raceSelection === "nightElf" && sexSelection === "female") {
         var nameOne = nightElfNameOneF;
         var nameTwo = nightElfNameTwo 
      }
 
-     if (raceSelection === "orc", sexSelection === "male") {
+     if (raceSelection === "orc" && sexSelection === "male") {
         var nameOne = orcNameOneM;
         var nameTwo = orcNameTwo
     }
-    if (raceSelection === "orc", sexSelection === "female") {
+    if (raceSelection === "orc" && sexSelection === "female") {
         var nameOne = orcNameOneF;
         var nameTwo = orcNameTwo
     }
 
-    if (raceSelection === "pandaren", sexSelection === "male") {
+    if (raceSelection === "pandaren" && sexSelection === "male") {
         var nameOne = pandarenNameOneM;
         var nameTwo = pandarenNameTwo 
      }
-    if (raceSelection === "pandaren", sexSelection === "female") {
+    if (raceSelection === "pandaren" && sexSelection === "female") {
         var nameOne = pandarenNameOneF;
         var nameTwo = pandarenNameTwo 
      }
 
-    if (raceSelection === "tauren", sexSelection === "male") {
+    if (raceSelection === "tauren" && sexSelection === "male") {
         var nameOne = taurenNameOneM;
         var nameTwo = taurenNameTwo
     }
-    if (raceSelection === "tauren", sexSelection === "female") {
+    if (raceSelection === "tauren" && sexSelection === "female") {
         var nameOne = taurenNameOneF;
         var nameTwo = taurenNameTwo
     }
 
-    if (raceSelection === "troll", sexSelection === "male") {
+    if (raceSelection === "troll" && sexSelection === "male") {
         var nameOne = trollNameOneM;
         var nameTwo = trollNameTwo 
      }
-    if (raceSelection === "troll", sexSelection === "female") {
+    if (raceSelection === "troll" && sexSelection === "female") {
         var nameOne = trollNameOneF;
         var nameTwo = trollNameTwo 
      }
 
-     if (raceSelection === "undead", sexSelection === "male") {
+     if (raceSelection === "undead" && sexSelection === "male") {
         var nameOne = undeadNameOneM;
         var nameTwo = undeadNameTwo 
      }
-    if (raceSelection === "undead", sexSelection === "female") {
+    if (raceSelection === "undead" && sexSelection === "female") {
         var nameOne = undeadNameOneF;
         var nameTwo = undeadNameTwo 
      }
 
-     if (raceSelection === "voidElf", sexSelection === "male") {
+     if (raceSelection === "voidElf" && sexSelection === "male") {
         var nameOne = voidElfNameOneM;
         var nameTwo = voidElfNameTwo 
      }
-    if (raceSelection === "voidElf", sexSelection === "female") {
+    if (raceSelection === "voidElf" && sexSelection === "female") {
         var nameOne = voidElfNameOneF;
         var nameTwo = voidElfNameTwo 
      }
 
-     if (raceSelection === "vulpera", sexSelection === "male") {
+     if (raceSelection === "vulpera" && sexSelection === "male") {
         var nameOne = vulperaNameOneM;
         var nameTwo = vulperaNameTwo 
      }
-    if (raceSelection === "vulpera", sexSelection === "female") {
+    if (raceSelection === "vulpera" && sexSelection === "female") {
         var nameOne = vulperaNameOneF;
         var nameTwo = vulperaNameTwo 
      }
      
-     if (raceSelection === "worgen", sexSelection === "male") {
+     if (raceSelection === "worgen" && sexSelection === "male") {
         var nameOne = worgenNameOneM;
         var nameTwo = worgenNameTwo 
      }
-    if (raceSelection === "worgen", sexSelection === "female") {
+    if (raceSelection === "worgen" && sexSelection === "female") {
         var nameOne = worgenNameOneF;
         var nameTwo = worgenNameTwo 
      }
 
-     if (raceSelection === "zandalariTroll", sexSelection === "male") {
+     if (raceSelection === "zandalariTroll" && sexSelection === "male") {
         var nameOne = zandalariTrollNameOneM;
         var nameTwo = zandalariTrollNameTwo 
      }
-    if (raceSelection === "zandalariTroll", sexSelection === "female") {
+    if (raceSelection === "zandalariTroll" && sexSelection === "female") {
         var nameOne = zandalariTrollNameOneF;
         var nameTwo = zandalariTrollNameTwo 
      }

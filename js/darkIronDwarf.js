@@ -1,4 +1,4 @@
-export const darkIronDwarfNameOneM = {
+export const darkironDwarfNameOneM = {
     0: "Modgud",
     1: "Dagran",
     2: "Coren",
@@ -64,7 +64,7 @@ export const darkIronDwarfNameOneM = {
     62: "Guldros"
 }
 
-export const darkIronDwarfNameOneF = {
+export const darkironDwarfNameOneF = {
     0: "",
     1: "",
     2: "",
@@ -130,7 +130,7 @@ export const darkIronDwarfNameOneF = {
     62: ""
 }
 
-export const darkIronDwarfNameTwo = {
+export const darkironDwarfNameTwo = {
     0: "Thaurissan",
     1: "Pikesplitter",
     2: "Onyxbrand",

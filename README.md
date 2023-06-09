@@ -24,7 +24,6 @@
 
 # Upddate to seperate female/male name ones:
   # DARKIRON DWARF
-  # DWARF
   # GNOME
   # MECHAGNOME
   # ORC

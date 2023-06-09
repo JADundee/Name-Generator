@@ -36,3 +36,7 @@
 
 # Refactor generateNames() to ternary
 # Allow for nameTwo to = 0
+
+
+# city npc wikis completed: 
+  # Ironforge

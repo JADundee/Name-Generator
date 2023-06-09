@@ -1,5 +1,5 @@
 export const lightforgedDraeneiNameOneM = {
-    0: "",
+    0: "Lightforged",
     1: "",
     2: "",
     3: "",
@@ -131,7 +131,7 @@ export const lightforgedDraeneiNameOneF = {
 }
 
 export const lightforgedDraeneiNameTwo = {
-    0: "",
+    0: "Sunshield",
     1: "",
     2: "",
     3: "",

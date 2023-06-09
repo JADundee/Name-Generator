@@ -1,5 +1,5 @@
 export const draeneiNameOneM = {
-    0: "",
+    0: "Farseer",
     1: "",
     2: "",
     3: "",
@@ -131,8 +131,8 @@ export const draeneiNameOneF = {
 }
 
 export const draeneiNameTwo = {
-    0: "",
-    1: "",
+    0: "Eannu",
+    1: "Javad",
     2: "",
     3: "",
     4: "",

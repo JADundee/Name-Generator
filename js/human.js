@@ -1,10 +1,10 @@
 export const humanNameOneM = {
-    0: "",
-    1: "",
-    2: "",
-    3: "",
-    4: "",
-    5: "",
+    0: "Alexander",
+    1: "Donol",
+    2: "Franklin",
+    3: "Leroy",
+    4: "John",
+    5: "Jubahl",
     6: "",
     7: "",
     8: "",
@@ -65,8 +65,8 @@ export const humanNameOneM = {
 }
 
 export const humanNameOneF = {
-    0: "",
-    1: "",
+    0: "Deliana",
+    1: "Tisa",
     2: "",
     3: "",
     4: "",
@@ -131,13 +131,13 @@ export const humanNameOneF = {
 }
 
 export const humanNameTwo = {
-    0: "",
-    1: "",
-    2: "",
-    3: "",
-    4: "",
-    5: "",
-    6: "",
+    0: "Calder",
+    1: "Osgood",
+    2: "Martin",
+    3: "Jenkins",
+    4: "Turner",
+    5: "Corpseseeker",
+    6: "Martine",
     7: "",
     8: "",
     9: "",

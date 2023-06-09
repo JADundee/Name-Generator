@@ -1,5 +1,5 @@
 export const nightElfNameOneM = {
-    0: "",
+    0: "Erdunor",
     1: "",
     2: "",
     3: "",
@@ -131,7 +131,7 @@ export const nightElfNameOneF = {
 }
 
 export const nightElfNameTwo = {
-    0: "",
+    0: "Whitespire",
     1: "",
     2: "",
     3: "",

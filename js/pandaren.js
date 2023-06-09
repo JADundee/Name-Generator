@@ -1,5 +1,5 @@
 export const pandarenNameOneM = {
-    0: "",
+    0: "Liu",
     1: "",
     2: "",
     3: "",

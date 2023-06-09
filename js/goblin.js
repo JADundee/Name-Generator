@@ -1,6 +1,6 @@
 export const goblinNameOneM = {
-    0: "",
-    1: "",
+    0: "shyster",
+    1: "Wulmort",
     2: "",
     3: "",
     4: "",
@@ -65,8 +65,8 @@ export const goblinNameOneM = {
 }
 
 export const goblinNameOneF = {
-    0: "",
-    1: "",
+    0: "Macey",
+    1: "Pella",
     2: "",
     3: "",
     4: "",
@@ -131,8 +131,8 @@ export const goblinNameOneF = {
 }
 
 export const goblinNameTwo = {
-    0: "",
-    1: "",
+    0: "Jingglepocket",
+    1: "Brassbush",
     2: "",
     3: "",
     4: "",

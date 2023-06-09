@@ -1,4 +1,4 @@
-export const NameOne = {
+export const zandalariTrollNameOne = {
     0: "",
     1: "",
     2: "",
@@ -65,7 +65,7 @@ export const NameOne = {
 }
 
 
-export const NameTwo = {
+export const zandalariTrollNameTwo = {
     0: "",
     1: "",
     2: "",

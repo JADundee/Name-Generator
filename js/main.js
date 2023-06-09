@@ -1,9 +1,29 @@
-import { gnomeNameOne, gnomeNameTwo } from "./gnome.js";
-import { taurenNameOne, taurenNameTwo } from "./tauren.js";
-import { orcNameOne, orcNameTwo } from "./orc.js";
-import { mechagnomeNameOne, mechagnomeNameTwo } from "./mechagnome.js";
+import { bloodElfNameOne, bloodElfNameTwo } from "./bloodElf.js";
 import { darkIronDwarfNameOne, darkIronDwarfNameTwo } from "./darkIronDwarf.js";
+import { dracthyrNameOne, dracthyrNameTwo } from "./dracthyr.js";
+import { draeneiNameOne, draeneiNameTwo } from "./draenei.js";
 import { dwarfNameOne, dwarfNameTwo } from "./dwarf.js";
+import { gnomeNameOne, gnomeNameTwo } from "./gnome.js";
+import { goblinNameOne, goblinNameTwo } from "./goblin.js";
+import { highmountainTaurenNameOne, highmountainTaurenNameTwo } from "./highmountainTauren.js";
+import { humanNameOne, humanNameTwo } from "./human.js";
+import { kulTiranNameOne, kulTiranNameTwo } from "./kulTiran.js";
+import { lightforgedDraeneiNameOne, lightforgedDraeneiNameTwo } from "./lightforgedDraenei.js";
+import { magharOrcNameOne, magharOrcNameTwo } from "./mag'harOrc.js";
+import { mechagnomeNameOne, mechagnomeNameTwo } from "./mechagnome.js";
+import { nightborneNameOne, nightborneNameTwo } from "./nightborne.js";
+import { nightElfNameOne, nightElfNameTwo } from "./nightElf.js";
+import { orcNameOne, orcNameTwo } from "./orc.js";
+import { pandarenNameOne, pandarenNameTwo } from "./pandaren.js";
+import { taurenNameOne, taurenNameTwo } from "./tauren.js";
+import { trollNameOne, trollNameTwo } from "./troll.js";
+import { undeadNameOne, undeadNameTwo } from "./undead.js";
+import { voidElfNameOne, voidElfNameTwo } from "./voidElf.js";
+import { vulperaNameOne, vulperaNameTwo } from "./vulpera.js";
+import { worgenNameOne, worgenNameTwo } from "./worgen.js";
+import { zandalariTrollNameOne, zandalariTrollNameTwo } from "./zandalariTroll.js";
+
+
 
 const initApp = () => {
     document.getElementById("submitForm").addEventListener("submit", (event) => {

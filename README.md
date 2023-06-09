@@ -9,7 +9,6 @@
   #  dwarf
   #  goblin
   #  humans: [kul tiran]
-  #  *gnome: [mechagnomes]
   #  night elf: [nightborne]
   #  *orc: [mag'har orc]
   #  pandaren

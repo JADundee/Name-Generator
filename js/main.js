@@ -1,27 +1,27 @@
-import { bloodElfNameOne, bloodElfNameTwo } from "./bloodElf.js";
-import { darkIronDwarfNameOne, darkIronDwarfNameTwo } from "./darkIronDwarf.js";
-import { dracthyrNameOne, dracthyrNameTwo } from "./dracthyr.js";
-import { draeneiNameOne, draeneiNameTwo } from "./draenei.js";
-import { dwarfNameOne, dwarfNameTwo } from "./dwarf.js";
-import { gnomeNameOne, gnomeNameTwo } from "./gnome.js";
-import { goblinNameOne, goblinNameTwo } from "./goblin.js";
-import { highmountainTaurenNameOne, highmountainTaurenNameTwo } from "./highmountainTauren.js";
-import { humanNameOne, humanNameTwo } from "./human.js";
-import { kulTiranNameOne, kulTiranNameTwo } from "./kulTiran.js";
-import { lightforgedDraeneiNameOne, lightforgedDraeneiNameTwo } from "./lightforgedDraenei.js";
-import { magharOrcNameOne, magharOrcNameTwo } from "./mag'harOrc.js";
-import { mechagnomeNameOne, mechagnomeNameTwo } from "./mechagnome.js";
-import { nightborneNameOne, nightborneNameTwo } from "./nightborne.js";
-import { nightElfNameOne, nightElfNameTwo } from "./nightElf.js";
-import { orcNameOne, orcNameTwo } from "./orc.js";
-import { pandarenNameOne, pandarenNameTwo } from "./pandaren.js";
-import { taurenNameOne, taurenNameTwo } from "./tauren.js";
-import { trollNameOne, trollNameTwo } from "./troll.js";
-import { undeadNameOne, undeadNameTwo } from "./undead.js";
-import { voidElfNameOne, voidElfNameTwo } from "./voidElf.js";
-import { vulperaNameOne, vulperaNameTwo } from "./vulpera.js";
-import { worgenNameOne, worgenNameTwo } from "./worgen.js";
-import { zandalariTrollNameOne, zandalariTrollNameTwo } from "./zandalariTroll.js";
+import { bloodElfNameOneM, bloodElfNameOneF, bloodElfNameTwo } from "./bloodElf.js";
+import { darkIronDwarfNameOneM, darkIronDwarfNameOneF, darkIronDwarfNameTwo } from "./darkIronDwarf.js";
+import { dracthyrNameOneM, dracthyrNameOneF, dracthyrNameTwo } from "./dracthyr.js";
+import { draeneiNameOneM, draeneiNameOneF, draeneiNameTwo } from "./draenei.js";
+import { dwarfNameOneM, dwarfNameOneF, dwarfNameTwo } from "./dwarf.js";
+import { gnomeNameOneM, gnomeNameOneF, gnomeNameTwo } from "./gnome.js";
+import { goblinNameOneM, goblinNameOneF, goblinNameTwo } from "./goblin.js";
+import { highmountainTaurenNameOneM, highmountainTaurenNameOneF, highmountainTaurenNameTwo } from "./highmountainTauren.js";
+import { humanNameOneM, humanNameOneF, humanNameTwo } from "./human.js";
+import { kulTiranNameOneM, kulTiranNameOneF, kulTiranNameTwo } from "./kulTiran.js";
+import { lightforgedDraeneiNameOneM, lightforgeDraeneiNameOneF, lightforgedDraeneiNameTwo } from "./lightforgedDraenei.js";
+import { magharOrcNameOneM, magharOrcNameOneF, magharOrcNameTwo } from "./mag'harOrc.js";
+import { mechagnomeNameOneM, mechagnomeNameOneF, mechagnomeNameTwo } from "./mechagnome.js";
+import { nightborneNameOneM, nightborneNameOneF, nightborneNameTwo } from "./nightborne.js";
+import { nightElfNameOneM, nightElfNameOneF, nightElfNameTwo } from "./nightElf.js";
+import { orcNameOneM, orcNameOneF, orcNameTwo } from "./orc.js";
+import { pandarenNameOneM, pandarenNameOneF, pandarenNameTwo } from "./pandaren.js";
+import { taurenNameOneM, taurenNameOneF, taurenNameTwo } from "./tauren.js";
+import { trollNameOneM, trollNameOneF, trollNameTwo } from "./troll.js";
+import { undeadNameOneM, undeadNameOneF, undeadNameTwo } from "./undead.js";
+import { voidElfNameOneM, voidElfNameOneF, voidElfNameTwo } from "./voidElf.js";
+import { vulperaNameOneM, vulperaNameOneF, vulperaNameTwo } from "./vulpera.js";
+import { worgenNameOneM, worgenNameOneF, worgenNameTwo } from "./worgen.js";
+import { zandalariTrollNameOneM, zandalariTrollNameOneF, zandalariTrollNameTwo } from "./zandalariTroll.js";
 
 
 
@@ -49,31 +49,69 @@ const clearSuggestions = () => {
 
 const generateNames = () => {
     const raceSelection = document.getElementById("submitSection__races").value;
-    console.log(raceSelection)
-    if (raceSelection === "gnome") {
-       var nameOne = gnomeNameOne;
-       var nameTwo = gnomeNameTwo 
-    }
-    if (raceSelection === "tauren") {
-        var nameOne = taurenNameOne;
-        var nameTwo = taurenNameTwo
-    }
-    if (raceSelection === "orc") {
-        var nameOne = orcNameOne;
-        var nameTwo = orcNameTwo
-    }
-    if (raceSelection === "mechagnome") {
-        var nameOne = mechagnomeNameOne;
-        var nameTwo = mechagnomeNameTwo 
-     }
-    if (raceSelection === "darkIronDwarf") {
-        var nameOne = darkIronDwarfNameOne;
+    const sexSelection = document.getElementById("submitSection__genders").value;
+
+    if (raceSelection === "darkIronDwarf", sexSelection === "male") {
+        var nameOne = darkIronDwarfNameOneM;
         var nameTwo = darkIronDwarfNameTwo 
      }
-    if (raceSelection === "dwarf") {
-        var nameOne = dwarfNameOne;
+    if (raceSelection === "darkIronDwarf", sexSelection === "female") {
+        var nameOne = darkIronDwarfNameOneF;
+        var nameTwo = darkIronDwarfNameTwo 
+     }
+
+    if (raceSelection === "dwarf", sexSelection === "male") {
+        var nameOne = dwarfNameOneM;
         var nameTwo = dwarfNameTwo 
      }
+    if (raceSelection === "dwarf", sexSelection === "female") {
+        var nameOne = dwarfNameOneF;
+        var nameTwo = dwarfNameTwo 
+     }
+
+    if (raceSelection === "gnome", sexSelection === "male") {
+       var nameOne = gnomeNameOneM;
+       var nameTwo = gnomeNameTwo 
+    }
+    if (raceSelection === "gnome", sexSelection === "female") {
+        var nameOne = gnomeNameOneF;
+        var nameTwo = gnomeNameTwo
+    }
+
+    if (raceSelection === "mechagnome", sexSelection === "male") {
+        var nameOne = mechagnomeNameOneM;
+        var nameTwo = mechagnomeNameTwo 
+     }
+    if (raceSelection === "mechagnome", sexSelection === "female") {
+        var nameOne = mechagnomeNameOneF;
+        var nameTwo = mechagnomeNameTwo 
+     }
+
+     if (raceSelection === "orc", sexSelection === "male") {
+        var nameOne = orcNameOneM;
+        var nameTwo = orcNameTwo
+    }
+    if (raceSelection === "orc", sexSelection === "female") {
+        var nameOne = orcNameOneF;
+        var nameTwo = orcNameTwo
+    }
+
+    if (raceSelection === "tauren", sexSelection === "male") {
+        var nameOne = taurenNameOneM;
+        var nameTwo = taurenNameTwo
+    }
+    if (raceSelection === "tauren", sexSelection === "female") {
+        var nameOne = taurenNameOneF;
+        var nameTwo = taurenNameTwo
+    }
+
+    
+
+    
+
+    
+
+    
      
 
 

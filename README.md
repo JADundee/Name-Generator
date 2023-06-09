@@ -1,41 +1,35 @@
 # TODO: 
 # Allow CORS access
 # Update styling
-# integrate races:
-  #  blood elf
-  #  dracthyr
-  #  draenei 
-  #  goblin
-  #  humans
-  #  kul tiran
-  #  lightforged draenei
-  #  night elf: 
-  #  mag'har orc
-  #  nightnorne
-  #  pandaren
-  #  highmountain tauren
-  #  troll
-  #  undead
-  #  void elf
-  #  vulpara
-  #  worgen
-  #  zanadalari troll
 
-
-# Upddate to seperate female/male name ones:
-  # DARKIRON DWARF
-  # GNOME
-  # MECHAGNOME
-  # ORC
-  # TAUREN
-
-
-# for more names use wowhead city pages for npc names tab
+# Complete names list via wowpedia:
+  # Human
+  # Dwarf
+  # Night elf
+  # Gnome
+  # Draenei
+  # Worgen
+  # Pandaren
+  # Dracthyr
+  # Orc
+  # Forsaken
+  # Tauren
+  # Troll
+  # Blood elf
+  # Goblin
+  # Void elf
+  # Lightforged Draenei
+  # Dark iron dwarf
+  # Kul Tiran
+  # Mechagnome
+  # Nightborne
+  # Highmountain Tauren
+  # Mag'har Orc
+  # Zandalari troll
+  # Vulpera
 
 
 # Refactor generateNames() to ternary
 # Allow for nameTwo to = 0
 
 
-# city npc wikis completed: 
-  # Ironforge

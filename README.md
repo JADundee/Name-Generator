@@ -23,3 +23,6 @@
 
 
 # Split generator into male/female and add the dropdown menu
+
+
+# for more names use wowhead city pages for npc names tab

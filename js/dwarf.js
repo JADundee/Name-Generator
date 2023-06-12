@@ -571,6 +571,17 @@ export const dwarfNameOneM = {
     62: "Grayson",
     62: "Thargold",
     62: "Ivan",
+    62: "Durvin",
+    62: "Kulvo",
+    62: "Jansun",
+    62: "Jaren",
+    62: "Jeor",
+    62: "Jode",
+    62: "John",
+    62: "Joj",
+    62: "Salty",
+    62: "Hurom",
+    62: "",
 }
 
 export const dwarfNameOneF = {
@@ -735,6 +746,8 @@ export const dwarfNameOneF = {
     62: "Sedona",
     62: "Bree",
     62: "Jona",
+    62: "Janha",
+    62: "Jessi",
 }
 
 export const dwarfNameTwo = {
@@ -1211,5 +1224,10 @@ export const dwarfNameTwo = {
     63: "Ironstove",
     63: "Ironwill",
     63: "Ironwing",
-    63: "",
+    63: "Jackson",
+    63: "Jadefist",
+    63: "Jones",
+    63: "Jorren",
+    63: "Juggendolf",
+    63: "Jurgenstaad",
 }

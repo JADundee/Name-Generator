@@ -911,6 +911,16 @@ export const dwarfNameOneM = {
     62: "Ulig",
     62: "Kreldig",
     62: "Uthan",
+    62: "Valen",
+    62: "Valgrum",
+    62: "Mardun",
+    62: "Brandan",
+    62: "Varigg",
+    62: "Veek",
+    62: "Lhurg",
+    62: "Bosch",
+    62: "Vhell",
+    62: "Vontair",
 }
 
 
@@ -1199,7 +1209,7 @@ export const dwarfNameOneF = {
     62: "Noreen",
     62: "Clara",
     62: "Dame",
-    62: "",
+    62: "Varana",
 }
 
 export const dwarfNameTwo = {
@@ -1978,4 +1988,8 @@ export const dwarfNameTwo = {
     63: "Twinbraid",
     63: "Twofingers",
     63: "Ungor",
+    63: "Valorhearth",
+    63: "Vanderpool",
+    63: "Venomblade",
+    63: "Verigan",
 }

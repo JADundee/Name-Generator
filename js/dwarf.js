@@ -907,7 +907,10 @@ export const dwarfNameOneM = {
     62: "Twirhp",
     62: "Toht",
     62: "Tyraw",
-    62: "",
+    62: "Udin",
+    62: "Ulig",
+    62: "Kreldig",
+    62: "Uthan",
 }
 
 
@@ -1974,5 +1977,5 @@ export const dwarfNameTwo = {
     63: "Tumblebrew",
     63: "Twinbraid",
     63: "Twofingers",
-    63: "",
+    63: "Ungor",
 }

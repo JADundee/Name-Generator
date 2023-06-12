@@ -689,6 +689,16 @@ export const dwarfNameOneM = {
     62: "Orlund",
     62: "Orvar",
     62: "Ozmok",
+    62: "Kharmarn",
+    62: "Durty",
+    62: "Gremlock",
+    62: "Thamner",
+    62: "Khrim",
+    62: "Adlin",
+    62: "Kersok",
+    62: "Ulfie",
+    62: "Garrod",
+    62: "Pulroy",
 }
 
 export const dwarfNameOneF = {
@@ -886,6 +896,8 @@ export const dwarfNameOneF = {
     62: "Onnesa",
     62: "Dagni",
     62: "Otela",
+    62: "Pebblebitty",
+    62: "Penny",
 }
 
 export const dwarfNameTwo = {
@@ -1451,5 +1463,15 @@ export const dwarfNameTwo = {
     63: "Oakthorn",
     63: "Oregleam",
     63: "Orehammer",
-    63: "",
+    63: "Palegrip",
+    63: "Pete",
+    63: "Pilsnor",
+    63: "Plunderbeard",
+    63: "Pol",
+    63: "Powderkeg",
+    63: "Pridedrift",
+    63: "Prond",
+    63: "Proudkeg",
+    63: "Pubhammer",
+    63: "Pulfrost",
 }

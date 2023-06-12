@@ -921,6 +921,23 @@ export const dwarfNameOneM = {
     62: "Bosch",
     62: "Vhell",
     62: "Vontair",
+    62: "Wallbang",
+    62: "Walt",
+    62: "Warrax",
+    62: "Watkins",
+    62: "Watsun",
+    62: "Brollen",
+    62: "Wheeler",
+    62: "Whelgar",
+    62: "Grelin",
+    62: "Senir",
+    62: "Alasdair",
+    62: "Fraweth",
+    62: "Tapin",
+    62: "Grif",
+    62: "Ingo",
+    62: "Wray",
+    62: "Wuar",
 }
 
 
@@ -1210,6 +1227,12 @@ export const dwarfNameOneF = {
     62: "Clara",
     62: "Dame",
     62: "Varana",
+    62: "Shiobhan",
+    62: "Wilba",
+    62: "Belda",
+    62: "Pernilla",
+    62: "Woo",
+    62: "Faena",
 }
 
 export const dwarfNameTwo = {
@@ -1992,4 +2015,15 @@ export const dwarfNameTwo = {
     63: "Vanderpool",
     63: "Venomblade",
     63: "Verigan",
+    63: "Waterborn",
+    63: "Wheatbeard",
+    63: "Whitebeard",
+    63: "Whitepeak",
+    63: "Whiteshield",
+    63: "Wildbeard",
+    63: "Wildheart",
+    63: "Wildspike",
+    63: "Wilhelm",
+    63: "Woolybush",
+    63: "",
 }

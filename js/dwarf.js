@@ -679,6 +679,16 @@ export const dwarfNameOneM = {
     62: "Nergal",
     62: "Harry",
     62: "Nulil",
+    62: "Kreeg",
+    62: "Ol",
+    62: "Olaf",
+    62: "Oralius",
+    62: "Greer",
+    62: "Orfus",
+    62: "Orlond",
+    62: "Orlund",
+    62: "Orvar",
+    62: "Ozmok",
 }
 
 export const dwarfNameOneF = {
@@ -872,7 +882,10 @@ export const dwarfNameOneF = {
     62: "Morran",
     62: "Serra",
     62: "Nally",
-    62: "",
+    62: "Thelsia",
+    62: "Onnesa",
+    62: "Dagni",
+    62: "Otela",
 }
 
 export const dwarfNameTwo = {
@@ -1431,4 +1444,12 @@ export const dwarfNameTwo = {
     63: "Murall",
     63: "Muzzleshot",
     63: "Nowakowski",
+    63: "O'Flannerty",
+    63: "O'Lalley",
+    63: "O'Riley",
+    63: "Oakheart",
+    63: "Oakthorn",
+    63: "Oregleam",
+    63: "Orehammer",
+    63: "",
 }

@@ -699,6 +699,8 @@ export const dwarfNameOneM = {
     62: "Ulfie",
     62: "Garrod",
     62: "Pulroy",
+    62: "Darvish",
+    62: "",
 }
 
 export const dwarfNameOneF = {
@@ -898,6 +900,7 @@ export const dwarfNameOneF = {
     62: "Otela",
     62: "Pebblebitty",
     62: "Penny",
+    62: "Grinhilda",
 }
 
 export const dwarfNameTwo = {
@@ -1474,4 +1477,7 @@ export const dwarfNameTwo = {
     63: "Proudkeg",
     63: "Pubhammer",
     63: "Pulfrost",
+    63: "Quartzhammer",
+    63: "Quickhammer",
+    63: "Quietfist",
 }

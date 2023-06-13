@@ -61,7 +61,8 @@ export const orcNameOneM = {
     59: "Usunaar",
     60: "Agis",
     61: "Sundryl",
-    62: "Mugdul"
+    62: "Mugdul",
+    : "",
 }
 
 export const orcNameOneF = {
@@ -127,7 +128,8 @@ export const orcNameOneF = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const orcNameTwo = {
@@ -193,5 +195,6 @@ export const orcNameTwo = {
     59: "Grimwall",
     60: "The Reckless",
     61: "Deathbringer",
-    62: "Giantblood"
+    62: "Giantblood",
+    : "",
 }

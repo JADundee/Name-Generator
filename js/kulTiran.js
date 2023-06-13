@@ -61,7 +61,8 @@ export const kulTiranNameOneM = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const kulTiranNameOneF = {
@@ -127,7 +128,8 @@ export const kulTiranNameOneF = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const kulTiranNameTwo = {
@@ -193,5 +195,6 @@ export const kulTiranNameTwo = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }

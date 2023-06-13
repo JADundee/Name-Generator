@@ -314,6 +314,7 @@ const displayNames = (namesArray) => {
     if (display.classList.contains("hidden")) display.classList.toggle("hidden");
 
 
+    // TODO:
     /* let url = `https://worldofwarcraft.blizzard.com/en-us/character/${region}/${server}/${name}`;
     function urlExists(url, callback) {
     fetch(url, { method: 'head' })

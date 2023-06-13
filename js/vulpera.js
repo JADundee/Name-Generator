@@ -61,7 +61,8 @@ export const vulperaNameOneM = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const vulperaNameOneF = {
@@ -127,7 +128,8 @@ export const vulperaNameOneF = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const vulperaNameTwo = {
@@ -193,5 +195,6 @@ export const vulperaNameTwo = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }

@@ -61,7 +61,8 @@ export const lightforgedDraeneiNameOneM = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const lightforgedDraeneiNameOneF = {
@@ -127,7 +128,8 @@ export const lightforgedDraeneiNameOneF = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const lightforgedDraeneiNameTwo = {
@@ -193,5 +195,6 @@ export const lightforgedDraeneiNameTwo = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }

@@ -61,7 +61,8 @@ export const draeneiNameOneM = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const draeneiNameOneF = {
@@ -127,7 +128,8 @@ export const draeneiNameOneF = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const draeneiNameTwo = {
@@ -193,5 +195,6 @@ export const draeneiNameTwo = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }

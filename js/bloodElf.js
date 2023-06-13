@@ -61,7 +61,8 @@ export const bloodElfNameOneM = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const bloodElfNameOneF = {
@@ -127,7 +128,8 @@ export const bloodElfNameOneF = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const bloodElfNameTwo = {
@@ -193,5 +195,6 @@ export const bloodElfNameTwo = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }

@@ -61,7 +61,8 @@ export const highmountainTaurenNameOneM = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const highmountainTaurenNameOneF = {
@@ -127,7 +128,8 @@ export const highmountainTaurenNameOneF = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const highmountainTaurenNameTwo = {
@@ -193,5 +195,6 @@ export const highmountainTaurenNameTwo = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }

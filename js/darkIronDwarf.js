@@ -62,7 +62,8 @@ export const darkironDwarfNameOneM = {
     60: "Fineous",
     61: "Franclorn",
     62: "Guldros",
-    62: "Keric",
+    63: "Keric",
+    : "",
 }
 
 export const darkironDwarfNameOneF = {
@@ -128,7 +129,8 @@ export const darkironDwarfNameOneF = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const darkironDwarfNameTwo = {
@@ -195,7 +197,8 @@ export const darkironDwarfNameTwo = {
     60: "Fireflint",
     61: "Lowhammer",
     62: "Toughbrew",
-    62: "Flametongue",
-    62: "Smolderblade",
-    62: "Scorchbrew",
+    63: "Flametongue",
+    64: "Smolderblade",
+    65: "Scorchbrew",
+    : "",
 }

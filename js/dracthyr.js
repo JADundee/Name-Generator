@@ -61,7 +61,8 @@ export const dracthyrNameOneM = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const dracthyrNameOneF = {
@@ -127,7 +128,8 @@ export const dracthyrNameOneF = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const dracthyrNameTwo = {
@@ -193,5 +195,6 @@ export const dracthyrNameTwo = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }

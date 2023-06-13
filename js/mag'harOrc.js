@@ -61,7 +61,8 @@ export const magharOrcNameOneM = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const magharOrcNameOneF = {
@@ -127,7 +128,8 @@ export const magharOrcNameOneF = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const magharOrcNameTwo = {
@@ -193,5 +195,6 @@ export const magharOrcNameTwo = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }

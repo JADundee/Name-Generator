@@ -61,7 +61,8 @@ export const trollNameOneM = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const trollNameOneF = {
@@ -127,7 +128,8 @@ export const trollNameOneF = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const trollNameTwo = {
@@ -193,5 +195,6 @@ export const trollNameTwo = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }

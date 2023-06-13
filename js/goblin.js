@@ -61,7 +61,8 @@ export const goblinNameOneM = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const goblinNameOneF = {
@@ -127,7 +128,8 @@ export const goblinNameOneF = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const goblinNameTwo = {
@@ -193,5 +195,6 @@ export const goblinNameTwo = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }

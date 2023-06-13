@@ -61,7 +61,8 @@ export const worgenNameOneM = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const worgenNameOneF = {
@@ -127,7 +128,8 @@ export const worgenNameOneF = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const worgenNameTwo = {
@@ -193,5 +195,6 @@ export const worgenNameTwo = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }

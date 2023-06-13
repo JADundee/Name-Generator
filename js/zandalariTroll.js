@@ -61,7 +61,8 @@ export const zandalariTrollNameOneM = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const zandalariTrollNameOneF = {
@@ -127,7 +128,8 @@ export const zandalariTrollNameOneF = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const zandalariTrollNameTwo = {
@@ -193,5 +195,6 @@ export const zandalariTrollNameTwo = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }

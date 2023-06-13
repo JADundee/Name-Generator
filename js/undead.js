@@ -61,7 +61,8 @@ export const undeadNameOneM = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const undeadNameOneF = {
@@ -127,7 +128,8 @@ export const undeadNameOneF = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const undeadNameTwo = {
@@ -193,5 +195,6 @@ export const undeadNameTwo = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }

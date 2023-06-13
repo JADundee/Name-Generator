@@ -61,7 +61,8 @@ export const pandarenNameOneM = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const pandarenNameOneF = {
@@ -127,7 +128,8 @@ export const pandarenNameOneF = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const pandarenNameTwo = {
@@ -193,5 +195,6 @@ export const pandarenNameTwo = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }

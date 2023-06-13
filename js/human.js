@@ -61,7 +61,8 @@ export const humanNameOneM = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const humanNameOneF = {
@@ -127,7 +128,8 @@ export const humanNameOneF = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const humanNameTwo = {
@@ -193,5 +195,6 @@ export const humanNameTwo = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }

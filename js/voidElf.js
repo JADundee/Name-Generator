@@ -61,7 +61,8 @@ export const voidElfNameOneM = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const voidElfNameOneF = {
@@ -127,7 +128,8 @@ export const voidElfNameOneF = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "".
+    : "",
 }
 
 export const voidElfNameTwo = {
@@ -193,5 +195,6 @@ export const voidElfNameTwo = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }

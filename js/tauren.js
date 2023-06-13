@@ -61,7 +61,8 @@ export const taurenNameOneM = {
     59: "Gronnok",
     60: "Elara",
     61: "Elysia",
-    62: "Torvain"
+    62: "Torvain",
+    : "",
 }
 
 export const taurenNameOneF = {
@@ -127,7 +128,8 @@ export const taurenNameOneF = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const taurenNameTwo = {
@@ -193,5 +195,6 @@ export const taurenNameTwo = {
     59: "Ashenhoof",
     60: "Steelhorn",
     61: "Swifthorn",
-    62: "Stormbrow"
+    62: "Stormbrow",
+    : "",
 }

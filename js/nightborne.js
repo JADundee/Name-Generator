@@ -61,7 +61,8 @@ export const nightborneNameOneM = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const nightborneNameOneF = {
@@ -127,7 +128,8 @@ export const nightborneNameOneF = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const nightborneNameTwo = {
@@ -193,5 +195,6 @@ export const nightborneNameTwo = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }

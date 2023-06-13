@@ -61,7 +61,8 @@ export const nightElfNameOneM = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const nightElfNameOneF = {
@@ -127,7 +128,8 @@ export const nightElfNameOneF = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const nightElfNameTwo = {
@@ -193,5 +195,6 @@ export const nightElfNameTwo = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }

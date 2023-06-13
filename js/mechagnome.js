@@ -61,7 +61,8 @@ export const mechagnomeNameOneM = {
     59: "Cranky",
     60: "Gunny",
     61: "Wizz",
-    62: "Wizzbang"
+    62: "Wizzbang",
+    : "",
 }
 
 export const mechagnomeNameOneF = {
@@ -127,7 +128,8 @@ export const mechagnomeNameOneF = {
     59: "",
     60: "",
     61: "",
-    62: ""
+    62: "",
+    : "",
 }
 
 export const mechagnomeNameTwo = {
@@ -193,5 +195,6 @@ export const mechagnomeNameTwo = {
     59: "5000",
     60: "6000",
     61: "7000",
-    62: "Cogfrenzy"
+    62: "Cogfrenzy",
+    : "",
 }

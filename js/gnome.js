@@ -379,6 +379,16 @@ export const gnomeNameOneM = {
     181: "Statiks",
     181: "Quincy",
     181: "Gnoklin",
+    181: "Raandyy",
+    181: "Raphael",
+    181: "Ormin",
+    181: "Roke",
+    181: "Practicus",
+    181: "Topher",
+    181: "Gaxim",
+    181: "Tog",
+    181: "Mathel",
+    181: "Ryno",
 }
 
 export const gnomeNameOneF = {
@@ -591,8 +601,14 @@ export const gnomeNameOneF = {
     181: "Rixa",
     181: "Bimbie",
     181: "Belbi",
-    181: "",
-    181: "",
+    181: "Raena",
+    181: "Randipan",
+    181: "Linzi",
+    181: "Glaciela",
+    181: "Rin",
+    181: "Bixxie",
+    181: "Galpen",
+    181: "Roo",
 }
 
 export const gnomeNameTwo = {
@@ -1030,4 +1046,15 @@ export const gnomeNameTwo = {
     195: "Quikspring",
     195: "Quipper",
     195: "Quirkcoil",
+    195: "Redgrin",
+    195: "Rimebang",
+    195: "Rocketbop",
+    195: "Rocketsocket",
+    195: "Rolltie",
+    195: "Rozzbin",
+    195: "Rushcog",
+    195: "Rustfizzle",
+    195: "Rustsprocket",
+    195: "Rustwrench",
+    195: "",
 }

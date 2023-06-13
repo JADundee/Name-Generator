@@ -374,6 +374,11 @@ export const gnomeNameOneM = {
     181: "Norman",
     181: "Puck",
     181: "Okri",
+    181: "Albert",
+    181: "Weslex",
+    181: "Statiks",
+    181: "Quincy",
+    181: "Gnoklin",
 }
 
 export const gnomeNameOneF = {
@@ -580,6 +585,12 @@ export const gnomeNameOneF = {
     181: "Mizzy",
     181: "Jennabink",
     181: "Prix",
+    181: "Shady",
+    181: "Maxine",
+    181: "Krymba",
+    181: "Rixa",
+    181: "Bimbie",
+    181: "Belbi",
     181: "",
     181: "",
 }
@@ -1009,4 +1020,14 @@ export const gnomeNameTwo = {
     195: "Powerseam",
     195: "Powerspark",
     195: "Putterwrench",
+    195: "Quarksprocket",
+    195: "Quarterflash",
+    195: "Quickshank",
+    195: "Quickshot",
+    195: "Quickwidget",
+    195: "Quickwrench",
+    195: "Quikfuse",
+    195: "Quikspring",
+    195: "Quipper",
+    195: "Quirkcoil",
 }

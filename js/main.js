@@ -268,27 +268,37 @@ const generateNames = () => {
         var nameOne = zandalariTrollNameOneF;
         var nameTwo = zandalariTrollNameTwo 
      }
-
-
-    //TODO: update second randomNumberArray to include 0 
-    const randomNumberArray = [];
-    for (let i = 0; i < 4;) {
-        const randomNumber = Math.floor(Math.random() * 63);
-        if (randomNumberArray.includes(randomNumber)) continue;
-        randomNumberArray.push(randomNumber);
+     
+    
+    const randomNumberArray1 = [];
+    const randomNumberArray2 = [];
+    for (let i = 0; i < Object.values(nameOne).length;) {
+        const randomNumber1 = Math.floor(Math.random() * Object.values(nameOne).length);
+        if (randomNumberArray1.includes(randomNumber1)) continue;
+        randomNumberArray1.push(randomNumber1);
         i++;
     }
-    const suggestion1 = nameOne[randomNumberArray[0]] 
-    + nameTwo[randomNumberArray[3]];
-    const suggestion2 = nameOne[randomNumberArray[1]] 
-    + nameTwo[randomNumberArray[0]];
-    const suggestion3 = nameOne[randomNumberArray[2]] 
-    + nameTwo[randomNumberArray[2]];
-    const suggestion4 = nameOne[randomNumberArray[3]] 
-    + nameTwo[randomNumberArray[1]];
+    for ( let i = 0; i < Object.values(nameTwo).length;) {
+      const randomNumber2 = Math.floor(Math.random() * Object.values(nameTwo).length);
+        if (randomNumberArray2.includes(randomNumber2)) continue;
+        randomNumberArray2.push(randomNumber2);
+        i++;
+    }
+    const suggestion1 = nameOne[randomNumberArray1[3]] 
+    + nameTwo[randomNumberArray2[0]];
+    const suggestion2 = nameOne[randomNumberArray1[2]] 
+    + nameTwo[randomNumberArray2[1]];
+    const suggestion3 = nameOne[randomNumberArray1[1]] 
+    + nameTwo[randomNumberArray2[2]];
+    const suggestion4 = nameOne[randomNumberArray1[0]] 
+    + nameTwo[randomNumberArray2[3]];
 
     return [suggestion1, suggestion2, suggestion3, suggestion4];
+    
+    
 }
+
+
 
 const displayNames = (namesArray) => {
     const list = document.querySelector('.suggestionSection ol');

@@ -294,7 +294,10 @@ export const gnomeNameOneM = {
     181: "Hal",
     181: "Atten",
     181: "Fenix",
-    181: "",
+    181: "Hann",
+    181: "Idej",
+    181: "Toby",
+    181: "Razak",
     
 }
 
@@ -446,6 +449,8 @@ export const gnomeNameOneF = {
     181: "Tylee",
     181: "Jacqueline",
     181: "Meekway",
+    181: "Indus",
+    181: "Zooey",
 }
 
 export const gnomeNameTwo = {
@@ -789,5 +794,8 @@ export const gnomeNameTwo = {
     195: "Hanswizzle",
     195: "Humzinger",
     195: "Hexwrench",
-    195: "Hexwrench",
+    195: "Ibal",
+    195: "Inksprocket",
+    195: "Ironbolt",
+    195: "Ironsides",
 }

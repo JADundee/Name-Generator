@@ -532,7 +532,12 @@ export const gnomeNameOneM = {
     530: "Zizo",
     531: "Zootfizzle",
     532: "Micro",
-    533: "Willy"
+    534: "Willy",
+    535: "Burgy",
+    536: "Blinks",
+    537: "Bodley",
+    538: "Tickle",
+    539: "Cohlien"
 }
 
 export const gnomeNameOneF = {
@@ -835,7 +840,8 @@ export const gnomeNameOneF = {
     346: "Staxie",
     347: "Magus",
     348: "Drusilla",
-    349: "Gigget"
+    349: "Gigget",
+    350: "Fidge",
 }
 
 export const gnomeNameTwo = {
@@ -1485,5 +1491,6 @@ export const gnomeNameTwo = {
     643: "Zoidfuse",
     644: "Zooly",
     645: "Zoox",
-    646: "Zulemore"
+    646: "Zulemore",
+    647: "Frostflash"
 }

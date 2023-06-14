@@ -379,7 +379,7 @@ export const dwarfNameOneM = {
     377: "Fingal",
     378: "Rann",
     379: "Flashfrost",
-    380: "Finlay",
+    380: "Gloom'rel",
     381: "Flint",
     382: "Grimbur",
     383: "Delfrum",
@@ -945,6 +945,11 @@ export const dwarfNameOneM = {
     943: "Zedd",
     944: "Zierhut",
     945: "Zwarn",
+    946: "Anger'rel",
+    947: "Doom'rel",
+    948: "Dope'rel",
+    949: "Thalvos",
+    950: "Vile'rel"
 }
 export const dwarfNameOneF = {
     0: "Kelly",
@@ -1240,6 +1245,9 @@ export const dwarfNameOneF = {
     290: "Faena",
     291: "Yuttha",
     292: "Zaren",
+    293: "Hate'rel",
+    294: "Seeth'rel",
+    295: "Branven"
 }
 
 export const dwarfNameTwo = {
@@ -2034,4 +2042,15 @@ export const dwarfNameTwo = {
     788: "Woolybush",
     789: "Yorglun",
     790: "Zecker",
+    791: "Forgewright",
+    792: "Frostwake",
+    793: "Corehammer",
+    794: "Burningeye",
+    795: "Brewmaiden",
+    796: "Anvilrage",
+    797: "Angerforge",
+    798: "Hammerheart",
+    799: "Ironstar",
+    800: "Moltenfist",
+    801: "Shadowforge"
 }

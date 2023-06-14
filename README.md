@@ -5,7 +5,6 @@
 # Complete names list via wowpedia:
   # Human
   # Night elf
-  # Gnome
   # Draenei
   # Worgen
   # Pandaren
@@ -30,5 +29,4 @@
 
 # Refactor generateNames() to ternary
 # Allow for nameTwo to = 0
-
 

@@ -6,9 +6,9 @@ export const dwarfNameOneM = {
     4: "Keeland",
     5: "Dungard",
     6: "Modimus",
-    7:"Madoran",
-    8:"Khardros",
-    9:"Aegrim",
+    7: "Madoran",
+    8: "Khardros",
+    9: "Aegrim",
     10: "Brann",
     11: "Rumholt",
     12: "Tak",
@@ -945,11 +945,7 @@ export const dwarfNameOneM = {
     943: "Zedd",
     944: "Zierhut",
     945: "Zwarn",
-    946: "Anger'rel",
-    947: "Doom'rel",
-    948: "Dope'rel",
-    949: "Thalvos",
-    950: "Vile'rel"
+    946: "Thalvos",
 }
 export const dwarfNameOneF = {
     0: "Kelly",
@@ -1245,9 +1241,7 @@ export const dwarfNameOneF = {
     290: "Faena",
     291: "Yuttha",
     292: "Zaren",
-    293: "Hate'rel",
-    294: "Seeth'rel",
-    295: "Branven"
+    293: "Branven"
 }
 
 export const dwarfNameTwo = {

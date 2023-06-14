@@ -485,6 +485,12 @@ export const gnomeNameOneM = {
     181: "Caz",
     181: "Agee",
     181: "Tyrion",
+    181: "Valdremar",
+    181: "Peta",
+    181: "Lotwil",
+    181: "Laphandrus",
+    181: "Gillian",
+    181: "Vulajin",
 }
 
 export const gnomeNameOneF = {
@@ -760,6 +766,9 @@ export const gnomeNameOneF = {
     181: "Winzy",
     181: "Tizzi",
     181: "Jinky",
+    181: "Briony",
+    181: "Som",
+    181: "",
 }
 
 export const gnomeNameTwo = {
@@ -1348,4 +1357,11 @@ export const gnomeNameTwo = {
     195: "Twizzlefixxit",
     195: "Twosprocket",
     195: "Tyler",
+    195: "Vandercog",
+    195: "Vanderpool",
+    195: "Venkner",
+    195: "Veriatus",
+    195: "Voidheart",
+    195: "Voltzman",
+    195: "",
 }

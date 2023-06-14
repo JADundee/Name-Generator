@@ -17,7 +17,6 @@
   # Goblin
   # Void elf
   # Lightforged Draenei
-  # Dark iron dwarf
   # Kul Tiran
   # Mechagnome
   # Nightborne

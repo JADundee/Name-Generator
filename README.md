@@ -5,7 +5,6 @@
 # Complete names list via wowpedia:
   # Human
   # Night elf
-  # Draenei
   # Worgen
   # Pandaren
   # Dracthyr
@@ -16,9 +15,7 @@
   # Blood elf
   # Goblin
   # Void elf
-  # Lightforged Draenei
   # Kul Tiran
-  # Mechagnome
   # Nightborne
   # Highmountain Tauren
   # Mag'har Orc

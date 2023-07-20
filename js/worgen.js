@@ -31,6 +31,21 @@ export const worgenNameOneM = {
     : "Robert",
     : "Darius",
     : "James",
+    : "Dareth",
+    : "Krowl",
+    : "Nevil",
+    : "Eric",
+    : "Dawyn",
+    : "Dayton",
+    : "Decker",
+    : "Jack",
+    : "Desmond",
+    : "Dethbringer",
+    : "Dibbs",
+    : "Marcus",
+    : "Ducal",
+    : "Ian",
+    : "Edmund",
 }
 
 export const worgenNameOneF = {
@@ -53,6 +68,11 @@ export const worgenNameOneF = {
     : "Claire",
     : "Claridge",
     : "Elaine",
+    : "Clementine",
+    : "Sylva",
+    : "Stella",
+    : "Dolores",
+    : "Jennette",
 }
 
 export const worgenNameTwo = {
@@ -92,4 +112,17 @@ export const worgenNameTwo = {
     : "Craig",
     : "Crowley",
     : "Crowson",
+    : "Darcy",
+    : "Darkfury",
+    : "Darkhowl",
+    : "Darkmane",
+    : "Darkpaw",
+    : "Darkstride",
+    : "Davidson",
+    : "Watts",
+    : "Derrington",
+    : "Dominar",
+    : "Doyle",
+    : "Duran",
+    : "Duskrend",
 }

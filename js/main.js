@@ -1,14 +1,14 @@
 import { bloodElfNameOneM, bloodElfNameOneF, bloodElfNameTwo } from "./bloodElf.js";
 import { darkironDwarfNameOneM, darkironDwarfNameOneF, darkironDwarfNameTwo } from "./darkironDwarf.js";
 import { dracthyrNameOneM, dracthyrNameOneF, dracthyrNameTwo } from "./dracthyr.js";
-import { draeneiNameOneM, draeneiNameOneF, draeneiNameTwo } from "./draenei.js";
+import { draeneiNameOneM, draeneiNameOneF, } from "./draenei.js";
 import { dwarfNameOneM, dwarfNameOneF, dwarfNameTwo } from "./dwarf.js";
 import { gnomeNameOneM, gnomeNameOneF, gnomeNameTwo } from "./gnome.js";
 import { goblinNameOneM, goblinNameOneF, goblinNameTwo } from "./goblin.js";
 import { highmountainTaurenNameOneM, highmountainTaurenNameOneF, highmountainTaurenNameTwo } from "./highmountainTauren.js";
 import { humanNameOneM, humanNameOneF, humanNameTwo } from "./human.js";
 import { kulTiranNameOneM, kulTiranNameOneF, kulTiranNameTwo } from "./kulTiran.js";
-import { lightforgedDraeneiNameOneM, lightforgedDraeneiNameOneF, lightforgedDraeneiNameTwo } from "./lightforgedDraenei.js";
+import { lightforgedDraeneiNameOneM, lightforgedDraeneiNameOneF } from "./lightforgedDraenei.js";
 import { magharOrcNameOneM, magharOrcNameOneF, magharOrcNameTwo } from "./mag'harOrc.js";
 import { mechagnomeNameOneM, mechagnomeNameOneF, mechagnomeNameTwo } from "./mechagnome.js";
 import { nightborneNameOneM, nightborneNameOneF, nightborneNameTwo } from "./nightborne.js";
@@ -82,11 +82,11 @@ const generateNames = () => {
 
      if (raceSelection === "draenei" && sexSelection === "male") {
         var nameOne = draeneiNameOneM;
-        var nameTwo = draeneiNameTwo 
+        var nameTwo = "" 
      }
     if (raceSelection === "draenei" && sexSelection === "female") {
         var nameOne = draeneiNameOneF;
-        var nameTwo = draeneiNameTwo 
+        var nameTwo = "" 
      }
 
     if (raceSelection === "dwarf" && sexSelection === "male") {
@@ -145,11 +145,11 @@ const generateNames = () => {
 
      if (raceSelection === "lightforgedDraenei" && sexSelection === "male") {
         var nameOne = lightforgedDraeneiNameOneM;
-        var nameTwo = lightforgedDraeneiNameTwo 
+        var nameTwo = "" 
      }
     if (raceSelection === "lightforgedDraenei" && sexSelection === "female") {
         var nameOne = lightforgedDraeneiNameOneF;
-        var nameTwo = lightforgedDraeneiNameTwo 
+        var nameTwo = "" 
      }
 
      if (raceSelection === "mag'harOrc" && sexSelection === "male") {

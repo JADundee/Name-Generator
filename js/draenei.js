@@ -620,6 +620,7 @@ export const draeneiNameOneM = {
     : "Vurenn",
     : "Vurkeran",
     : "Vuun",
+    : "Wain",
 }
 
 export const draeneiNameOneF = {
@@ -1111,4 +1112,7 @@ export const draeneiNameOneF = {
     : "Vishael",
     : "Vishala",
     : "Vuuleen",
+    : "Ophera",
+    : "Wanda",
+    : "Wonderhooves",
 }

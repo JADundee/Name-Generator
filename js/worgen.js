@@ -154,6 +154,19 @@ export const worgenNameOneM = {
     : "Daniel",
     : "Netheril",
     : "Benjamin",
+    : "Tear",
+    : "Edward",
+    : "Derek",
+    : "Thaldrus",
+    : "Thomas",
+    : "Jim",
+    : "Dauvin",
+    : "Birch",
+    : "Phillip",
+    : "Carter",
+    : "Sam",
+    : "Simon",
+    : "Geoffery",
 }
 
 export const worgenNameOneF = {
@@ -231,6 +244,11 @@ export const worgenNameOneF = {
     : "Silvia",
     : "Danise",
     : "Sumner",
+    : "Tambre",
+    : "Thorn",
+    : "Foxy",
+    : "Topper",
+    : "Turkina",
 }
 
 
@@ -387,4 +405,17 @@ export const worgenNameTwo = {
     : "Swiftclaw",
     : "Swiftstream",
     : "Sykes",
+    : "Techt",
+    : "Terrowulf",
+    : "Testerman",
+    : "Thibeau",
+    : "Thomas",
+    : "Thompson",
+    : "Thornworth",
+    : "Tomlin",
+    : "Tracey",
+    : "Trawley",
+    : "Trevel",
+    : "Trussel",
+    : "Tulvan",
 }

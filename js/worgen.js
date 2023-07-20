@@ -115,6 +115,8 @@ export const worgenNameOneM = {
     : "Nuthals",
     : "Skavis",
     : "Jephet",
+    : "Ossik",
+    : "Phin",
 }
 
 export const worgenNameOneF = {
@@ -179,6 +181,8 @@ export const worgenNameOneF = {
     : "Neena",
     : "Nefaru",
     : "Elizabeth",
+    : "Odette",
+    : "Mary",
 }
 
 
@@ -303,4 +307,6 @@ export const worgenNameTwo = {
     : "Nightfang",
     : "Nighthowler",
     : "Nightstalker",
+    : "Odelic",
+    : "Oxworth",
 }

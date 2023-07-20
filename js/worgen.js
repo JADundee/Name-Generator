@@ -84,6 +84,8 @@ export const worgenNameOneM = {
     : "Tolliver",
     : "Bobby",
     : "Austin",
+    : "Ignovus",
+    : "Ivan",
 }
 
 export const worgenNameOneF = {
@@ -131,6 +133,7 @@ export const worgenNameOneF = {
     : "Ilspeth",
     : "Jes",
     : "Ursila",
+    : "Riley",
 }
 
 export const worgenNameTwo = {
@@ -224,4 +227,5 @@ export const worgenNameTwo = {
     : "Howlis",
     : "Hudsen",
     : "Huxworth",
+    : "Iceclaw",
 }

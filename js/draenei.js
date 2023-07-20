@@ -583,6 +583,10 @@ export const draeneiNameOneM = {
     : "Trytan",
     : "Turannos",
     : "Tyrgon",
+    : "Ularu",
+    : "Uhur",
+    : "Unther",
+    : "Urel",
 }
 
 export const draeneiNameOneF = {
@@ -1041,4 +1045,9 @@ export const draeneiNameOneF = {
     : "Tuura",
     : "Tymea",
     : "Tysha",
+    : "Ulaani",
+    : "Uluura",
+    : "Umbrua",
+    : "Uriku",
+    : "Ursi",
 }

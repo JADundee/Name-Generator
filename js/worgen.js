@@ -124,6 +124,16 @@ export const worgenNameOneM = {
     : "Hephaestus",
     : "Pyrthel",
     : "Sniffy",
+    : "Roberts",
+    : "Halford",
+    : "Raul",
+    : "Jame'thris",
+    : "Alton",
+    : "Gideon",
+    : "Renthel",
+    : "Reynolds",
+    : "Vernon",
+    : "Rugan",
 }
 
 export const worgenNameOneF = {
@@ -320,4 +330,12 @@ export const worgenNameTwo = {
     : "Odelic",
     : "Oxworth",
     : "Pilgrim",
+    : "Rabis",
+    : "Ramsey",
+    : "Razorclaw",
+    : "Razorwind",
+    : "Redding",
+    : "Rellard",
+    : "Ripsnarl",
+    : "Roberts",
 }

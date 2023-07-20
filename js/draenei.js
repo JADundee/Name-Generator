@@ -625,6 +625,11 @@ export const draeneiNameOneM = {
     : "Xavar",
     : "Xayann",
     : "Xerandaal",
+    : "Yaval",
+    : "Yedrin",
+    : "Yil",
+    : "Yoro",
+    : "Yuuri",
 }
 
 export const draeneiNameOneF = {
@@ -1122,4 +1127,16 @@ export const draeneiNameOneF = {
     : "Xanata",
     : "Xenia",
     : "Xyrella",
+    : "Ya'rika",
+    : "Yaala",
+    : "Yaana",
+    : "Yalia",
+    : "Yaluu",
+    : "Yazmina",
+    : "Yevaa",
+    : "Ylissa",
+    : "Yrel",
+    : "Yrma",
+    : "Yula",
+    : "Yuula",
 }

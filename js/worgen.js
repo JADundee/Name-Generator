@@ -90,6 +90,14 @@ export const worgenNameOneM = {
     : "Karl",
     : "Rolf",
     : "Daven",
+    : "Will",
+    : "Harry",
+    : "Grant",
+    : "Hugo",
+    : "Leopold",
+    : "Longfang",
+    : "Arugal",
+    : "Hubert",
 }
 
 export const worgenNameOneF = {
@@ -141,6 +149,11 @@ export const worgenNameOneF = {
     : "Layna",
     : "Katja",
     : "Seline",
+    : "Layre",
+    : "Tana",
+    : "Lio",
+    : "Liza",
+    : "Katrina",
 }
 
 export const worgenNameTwo = {
@@ -238,4 +251,10 @@ export const worgenNameTwo = {
     : "Karner",
     : "Keihl",
     : "Kessler",
+    : "Larsons",
+    : "Lawson",
+    : "Lazarby",
+    : "Lentner",
+    : "Lucas",
+    : "Lyons",
 }

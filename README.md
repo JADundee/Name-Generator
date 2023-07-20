@@ -5,7 +5,6 @@
 # Complete names list via wowpedia:
   # Human
   # Night elf
-  # Worgen
   # Pandaren
   # Dracthyr
   # Orc

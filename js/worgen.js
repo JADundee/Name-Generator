@@ -168,7 +168,14 @@ export const worgenNameOneM = {
     : "Simon",
     : "Geoffery",
     : "Daviid",
+    : "Vardan",
+    : "Varkas",
+    : "Vitale",
+    : "Vitus",
+    : "Vladek",
+    : "Boomer",
 }
+
 
 export const worgenNameOneF = {
     : "Abigail",
@@ -251,6 +258,8 @@ export const worgenNameOneF = {
     : "Topper",
     : "Turkina",
     : "Ulrica",
+    : "Boomer",
+    : "Victoria",
 }
 
 
@@ -421,4 +430,6 @@ export const worgenNameTwo = {
     : "Trussel",
     : "Tulvan",
     : "Undermoon",
+    : "Vandergrief",
+    : "Vorick",
 }

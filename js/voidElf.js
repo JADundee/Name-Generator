@@ -16,6 +16,8 @@ export const voidElfNameOneF = {
     : "Leana",
     : "Elestrae",
     : "Selina",
+    : "Esmer",
+    : "Faedra",
 }
 
 export const voidElfNameTwo = {
@@ -27,4 +29,5 @@ export const voidElfNameTwo = {
     : "Duskraven",
     : "Duskthorn",
     : "Duskwalker",
+    : "Evenshade",
 }

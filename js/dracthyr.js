@@ -56,6 +56,11 @@ export const dracthyrNameOneM = {
     : "Sensabash",
     : "Sneakwing",
     : "Srivantor",
+    : "Tenezeth",
+    : "Tethalash",
+    : "Tetsos",
+    : "Thaza",
+    : "Theldren",
 }
 
 export const dracthyrNameOneF = {
@@ -102,6 +107,12 @@ export const dracthyrNameOneF = {
     : "Siennagosa",
     : "Skarukaru",
     : "Sorotis",
+    : "Taranthiza",
+    : "Tharalash",
+    : "Tharohn",
+    : "Toralamir",
+    : "Treysh",
+    : "Urazeras",
 }
 
 export const dracthyrNameTwo = {

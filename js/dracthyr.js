@@ -22,6 +22,10 @@ export const dracthyrNameOneM = {
     : "Haiku",
     : "Herac",
     : "Hermin",
+    : "Imareth",
+    : "Iristella",
+    : "Iristimat",
+    : "Iyazael",
 }
 
 export const dracthyrNameOneF = {

@@ -13,6 +13,9 @@ export const dracthyrNameOneM = {
     : "Dialash",
     : "Dathendrash",
     : "Damos",
+    : "Elarthresh",
+    : "Emberath",
+    : "Emishalan",
 }
 
 export const dracthyrNameOneF = {
@@ -24,6 +27,10 @@ export const dracthyrNameOneF = {
     : "Cindrethresh",
     : "Dervishian",
     : "Destia",
+    : "Ekrati",
+    : "Emberthal",
+    : "Eraleshk",
+    : "Erza",
 }
 
 export const dracthyrNameTwo = {

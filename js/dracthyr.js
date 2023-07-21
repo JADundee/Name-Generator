@@ -38,6 +38,8 @@ export const dracthyrNameOneM = {
     : "Krozhalan",
     : "Krozuthar",
     : "Kykrolian",
+    : "Mercatethel",
+    : "Malifron",
 }
 
 export const dracthyrNameOneF = {
@@ -63,6 +65,13 @@ export const dracthyrNameOneF = {
     : "Kotheshal",
     : "Kurazidaia",
     : "Kozastran",
+    : "Magera",
+    : "Makko",
+    : "Malicia",
+    : "Melonee",
+    : "Melonia",
+    : "Mezeri",
+    : "Mythressa",
 }
 
 export const dracthyrNameTwo = {

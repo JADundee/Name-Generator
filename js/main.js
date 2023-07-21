@@ -1,6 +1,6 @@
 import { bloodElfNameOneM, bloodElfNameOneF, bloodElfNameTwo } from "./bloodElf.js";
 import { darkironDwarfNameOneM, darkironDwarfNameOneF, darkironDwarfNameTwo } from "./darkironDwarf.js";
-import { dracthyrNameOneM, dracthyrNameOneF, dracthyrNameTwo } from "./dracthyr.js";
+import { dracthyrNameOneM, dracthyrNameOneF } from "./dracthyr.js";
 import { draeneiNameOneM, draeneiNameOneF, } from "./draenei.js";
 import { dwarfNameOneM, dwarfNameOneF, dwarfNameTwo } from "./dwarf.js";
 import { gnomeNameOneM, gnomeNameOneF, gnomeNameTwo } from "./gnome.js";
@@ -73,11 +73,11 @@ const generateNames = () => {
 
      if (raceSelection === "dracthyr" && sexSelection === "male") {
         var nameOne = dracthyrNameOneM;
-        var nameTwo = dracthyrNameTwo 
+        var nameTwo = "" 
      }
     if (raceSelection === "dracthyr" && sexSelection === "female") {
         var nameOne = dracthyrNameOneF;
-        var nameTwo = dracthyrNameTwo 
+        var nameTwo = "" 
      }
 
      if (raceSelection === "draenei" && sexSelection === "male") {

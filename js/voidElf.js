@@ -10,6 +10,7 @@ export const voidElfNameOneM = {
     : "Lorinas",
     : "Umbric",
     : "Mendaci",
+    : "Grady",
 }
 
 export const voidElfNameOneF = {
@@ -27,6 +28,8 @@ export const voidElfNameOneF = {
     : "Kavia",
     : "Lockeye",
     : "Haalie",
+    : "Falania",
+    : "Keira",
 }
 
 export const voidElfNameTwo = {
@@ -40,4 +43,7 @@ export const voidElfNameTwo = {
     : "Duskwalker",
     : "Evenshade",
     : "Millionia",
+    : "Nightsoul",
+    : "Onyxraven",
+    : "Prett",
 }

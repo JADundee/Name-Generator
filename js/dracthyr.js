@@ -4,6 +4,8 @@ export const dracthyrNameOneM = {
     : "Alsiaszar",
     : "Talon",
     : "Azurathel",
+    : "Bernaisez",
+    : "Burigos",
 }
 
 export const dracthyrNameOneF = {
@@ -11,9 +13,11 @@ export const dracthyrNameOneF = {
     : "Algeth'ar",
     : "Alzinathel",
     : "Andoris",
+    : "Brendormi",
 }
 
 export const dracthyrNameTwo = {
     : "Freshscale",
     : "Arrosh",
+    : "Baneflare",
 }

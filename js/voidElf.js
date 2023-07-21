@@ -18,6 +18,7 @@ export const voidElfNameOneF = {
     : "Selina",
     : "Esmer",
     : "Faedra",
+    : "Jaelora",
 }
 
 export const voidElfNameTwo = {

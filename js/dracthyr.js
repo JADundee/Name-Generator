@@ -18,6 +18,10 @@ export const dracthyrNameOneM = {
     : "Emishalan",
     : "Fusethrian",
     : "Geradran",
+    : "Haerothal",
+    : "Haiku",
+    : "Herac",
+    : "Hermin",
 }
 
 export const dracthyrNameOneF = {
@@ -35,6 +39,7 @@ export const dracthyrNameOneF = {
     : "Erza",
     : "Foxigleth",
     : "Glamora",
+    : "Hippeusti",
 }
 
 export const dracthyrNameTwo = {

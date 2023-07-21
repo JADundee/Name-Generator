@@ -6,7 +6,6 @@
   # Human
   # Night elf
   # Pandaren
-  # Dracthyr
   # Orc
   # Forsaken
   # Tauren
@@ -23,5 +22,5 @@
 
 
 # Refactor generateNames() to ternary
-# Allow for nameTwo to = 0
+# Allow for nameTwo to = ""
 

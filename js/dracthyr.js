@@ -2,7 +2,7 @@ export const dracthyrNameOneM = {
     : "Abereth",
     : "Algeth'ar",
     : "Alsiaszar",
-    : "Talon",
+    : "Arrosh",
     : "Azurathel",
     : "Bernaisez",
     : "Burigos",
@@ -10,6 +10,9 @@ export const dracthyrNameOneM = {
     : "Chrozon",
     : "Coulisa",
     : "Cuzolth",
+    : "Dialash",
+    : "Dathendrash",
+    : "Damos",
 }
 
 export const dracthyrNameOneF = {
@@ -19,10 +22,12 @@ export const dracthyrNameOneF = {
     : "Andoris",
     : "Brendormi",
     : "Cindrethresh",
+    : "Dervishian",
+    : "Destia",
 }
 
 export const dracthyrNameTwo = {
     : "Freshscale",
-    : "Arrosh",
+    : "",
     : "Baneflare",
 }

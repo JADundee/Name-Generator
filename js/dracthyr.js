@@ -44,6 +44,7 @@ export const dracthyrNameOneF = {
     : "Foxigleth",
     : "Glamora",
     : "Hippeusti",
+    : "Jyhanna",
 }
 
 export const dracthyrNameTwo = {

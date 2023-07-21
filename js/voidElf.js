@@ -11,6 +11,11 @@ export const voidElfNameOneM = {
     : "Umbric",
     : "Mendaci",
     : "Grady",
+    : "Matthien",
+    : "Ramaniel",
+    : "Rauvir",
+    : "Mastus",
+    : "Vazun",
 }
 
 export const voidElfNameOneF = {
@@ -30,6 +35,8 @@ export const voidElfNameOneF = {
     : "Haalie",
     : "Falania",
     : "Keira",
+    : "Shade",
+    : "Isarian",
 }
 
 export const voidElfNameTwo = {
@@ -46,4 +53,8 @@ export const voidElfNameTwo = {
     : "Nightsoul",
     : "Onyxraven",
     : "Prett",
+    : "Radiantgaze",
+    : "Shadowplume",
+    : "Snowspray",
+    : "Starspeaker",
 }

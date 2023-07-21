@@ -44,6 +44,12 @@ export const dracthyrNameOneM = {
     : "Nirathan",
     : "Nitazemish",
     : "Nothazoral",
+    : "Pyranora",
+    : "Rathamaresh",
+    : "Razmu",
+    : "Rendvith",
+    : "Rethenash",
+    : "Rommen",
 }
 
 export const dracthyrNameOneF = {
@@ -79,6 +85,9 @@ export const dracthyrNameOneF = {
     : "Nalyx",
     : "Nazurathar",
     : "Nirazal",
+    : "Razk",
+    : "Rei",
+    : "Rel",
 }
 
 export const dracthyrNameTwo = {

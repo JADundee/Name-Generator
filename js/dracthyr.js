@@ -26,6 +26,18 @@ export const dracthyrNameOneM = {
     : "Iristella",
     : "Iristimat",
     : "Iyazael",
+    : "Kajithalan",
+    : "Kazure",
+    : "Kerzanthi",
+    : "Keskahz",
+    : "Kethahn",
+    : "Kodethi",
+    : "Kokoslah",
+    : "Korvelnor",
+    : "Krenzen",
+    : "Krozhalan",
+    : "Krozuthar",
+    : "Kykrolian",
 }
 
 export const dracthyrNameOneF = {
@@ -45,6 +57,12 @@ export const dracthyrNameOneF = {
     : "Glamora",
     : "Hippeusti",
     : "Jyhanna",
+    : "Katrinasa",
+    : "Kemora",
+    : "Ketholia",
+    : "Kotheshal",
+    : "Kurazidaia",
+    : "Kozastran",
 }
 
 export const dracthyrNameTwo = {

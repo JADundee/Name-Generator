@@ -6,6 +6,10 @@ export const dracthyrNameOneM = {
     : "Azurathel",
     : "Bernaisez",
     : "Burigos",
+    : "Chrovo",
+    : "Chrozon",
+    : "Coulisa",
+    : "Cuzolth",
 }
 
 export const dracthyrNameOneF = {
@@ -14,6 +18,7 @@ export const dracthyrNameOneF = {
     : "Alzinathel",
     : "Andoris",
     : "Brendormi",
+    : "Cindrethresh",
 }
 
 export const dracthyrNameTwo = {

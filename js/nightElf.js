@@ -404,6 +404,10 @@ export const nightElfNameOneM = {
     : "Idras",
     : "Pyramond",
     : "Pythas",
+    : "Quackenbush",
+    : "Quentin",
+    : "Quin'thatano",
+    : "Kayvon",
 }
 
 export const nightElfNameOneF = {
@@ -1336,4 +1340,5 @@ export const nightElfNameTwo = {
     : "Proudblade",
     : "Proudwing",
     : "Puregrove",
+    : "Quinnstar",
 }

@@ -679,11 +679,15 @@ export const nightElfNameOneM = {
     : "Xintar",
     : "Yldan",
     : "Yol'Tithian",
+    : "Zarrin",
+    : "Zur",
+    : "Zybarus",
 }
 
 export const nightElfNameOneF = {
     : "A'moora",
     : "Vestia",
+    : "Zempre",
     : "Yoori",
     : "Yolvana",
     : "Syverandin",

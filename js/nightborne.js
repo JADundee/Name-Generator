@@ -807,11 +807,18 @@ export const nightborneNameOneM = {
     : "Or'ligai",
     : "Orian",
     : "Ovin",
+    : "Papris",
+    : "Phaedris",
+    : "Phaxondus",
+    : "Phosildral",
 }
 
 export const nightborneNameOneF = {
     : "A'moora",
     : "Aayndia",
+    : "Piet",
+    : "Palu",
+    : "Pelani",
     : "Noressa",
     : "Joanna",
     : "Andaris",

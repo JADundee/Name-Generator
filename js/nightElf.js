@@ -672,6 +672,11 @@ export const nightElfNameOneM = {
     : "Wodyn",
     : "Valyen",
     : "Wynnd",
+    : "Xai'ander",
+    : "Xanon",
+    : "Xavius",
+    : "Xeranitas",
+    : "Xintar",
 }
 
 export const nightElfNameOneF = {

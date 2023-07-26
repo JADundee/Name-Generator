@@ -4,7 +4,6 @@
 
 # Complete names list via wowpedia:
   # Human
-  # Night elf
   # Pandaren
   # Orc
   # Forsaken
@@ -14,7 +13,6 @@
   # Goblin
   # Void elf
   # Kul Tiran
-  # Nightborne
   # Highmountain Tauren
   # Mag'har Orc
   # Zandalari troll

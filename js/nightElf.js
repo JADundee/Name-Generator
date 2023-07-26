@@ -615,11 +615,17 @@ export const nightElfNameOneM = {
     : "Turian",
     : "Turkino",
     : "Tyr'kyn",
+    : "Ulthaan",
+    : "Ulthir",
+    : "Umbrage",
+    : "Daviid",
 }
 
 export const nightElfNameOneF = {
     : "A'moora",
     : "Vestia",
+    : "Ullanna",
+    : "Ashlee",
     : "Tyven",
     : "Tyrnas",
     : "Tylania",
@@ -2013,4 +2019,7 @@ export const nightElfNameTwo = {
     : "Trueshaft",
     : "Trueshot",
     : "Thornfur",
+    : "Umberleaf",
+    : "Underbrush",
+    : "Undermoon",
 }

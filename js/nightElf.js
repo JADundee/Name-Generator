@@ -727,7 +727,7 @@ export const nightElfNameOneM = {
     726: "Zannok",
     727: "Zarrin",
     728: "Zur",
-    729: "Zybarus",
+    729: "Zybarus"
 }
 
 export const nightElfNameOneF = {
@@ -1577,7 +1577,7 @@ export const nightElfNameOneF = {
     844: "Ysiel",
     845: "Ystelle",
     846: "Zelena",
-    847: "Zempre",
+    847: "Zempre"
 }
 
 export const nightElfNameTwo = {
@@ -2326,5 +2326,5 @@ export const nightElfNameTwo = {
     743: "Wolfrunner",
     744: "Wolfsong",
     745: "Woodshaper",
-    746: "Yewshade",
+    746: "Yewshade"
 }

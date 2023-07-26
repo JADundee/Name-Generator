@@ -781,11 +781,17 @@ export const nightborneNameOneM = {
     : "Jacin",
     : "Jarin",
     : "Jolsai",
+    : "Kados",
+    : "Kuvaeth",
+    : "Kyrtos",
 }
 
 export const nightborneNameOneF = {
     : "A'moora",
     : "Aayndia",
+    : "Korine",
+    : "Kieule",
+    : "Kandray",
     : "Jynn",
     : "Jorjana",
     : "Jessara",

@@ -9,9 +9,7 @@
   # Forsaken
   # Tauren
   # Troll
-  # Blood elf
   # Goblin
-  # Void elf
   # Kul Tiran
   # Highmountain Tauren
   # Mag'har Orc

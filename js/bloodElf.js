@@ -386,10 +386,17 @@ export const bloodElfNameOneM = {
     : "Phraid",
     : "Ponaris",
     : "Pyreanor",
+    : "Quallestis",
+    : "Quelis",
+    : "Howell",
+    : "Quithas",
 }
 
 export const bloodElfNameOneF = {
     : "Kasilda",
+    : "Quinni",
+    : "Norana",
+    : "Quarelestra",
     : "Haris",
     : "Phaelista",
     : "Ellendra",
@@ -1019,4 +1026,6 @@ export const bloodElfNameTwo = {
     : "Palescorn",
     : "Perilon",
     : "Pilton",
+    : "Quelldawn",
+    : "Quilldragon",
 }

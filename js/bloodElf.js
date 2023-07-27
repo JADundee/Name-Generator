@@ -611,10 +611,15 @@ export const bloodElfNameOneM = {
     : "Winthren",
     : "Woim",
     : "Wyllithen",
+    : "Xorith",
+    : "Yanni",
+    : "Yatheon",
 }
 
 export const bloodElfNameOneF = {
     : "Elysa",
+    : "Yula",
+    : "Xela",
     : "Gigi",
     : "Zeryna",
     : "Dalynnia",

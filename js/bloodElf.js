@@ -367,10 +367,23 @@ export const bloodElfNameOneM = {
     : "Noraelath",
     : "Nulil",
     : "Jaffrey",
+    : "Oninath",
+    : "Bazil",
+    : "Ordimbral",
+    : "Orestes",
+    : "Orion",
+    : "Orovinn",
+    : "Osselan",
 }
 
 export const bloodElfNameOneF = {
     : "Kasilda",
+    : "Ossela",
+    : "Opheron",
+    : "Ondri",
+    : "Omniara",
+    : "Olirea",
+    : "Oleinas",
     : "Novia",
     : "Nova",
     : "Noellene",
@@ -985,5 +998,6 @@ export const bloodElfNameTwo = {
     : "Nicious",
     : "Nightstrike",
     : "Nightthorn",
+    : "Olof'tazun",
     : "Noreliqe",
 }

@@ -194,10 +194,14 @@ export const goblinNameOneM = {
     : "Dumont",
     : "Rin",
     : "Dynamo",
+    : "Elogit",
+    : "Chip",
 }
 
 export const goblinNameOneF = {
     : "Macey",
+    : "Malle",
+    : "Patti",
     : "Deedee",
     : "Darla",
     : "Megs",
@@ -513,5 +517,6 @@ export const goblinNameTwo = {
     : "Drophammer",
     : "Duoctane",
     : "Dealwell",
-    : "",
+    : "Earnhard",
+    : "Endale",
 }

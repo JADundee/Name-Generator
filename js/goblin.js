@@ -810,6 +810,8 @@ export const goblinNameOneM = {
     : "Tweedle",
     : "Verd",
     : "Twinkle",
+    : "Ujumqin",
+    : "Maxwort",
 }
 
 export const goblinNameOneF = {
@@ -1580,6 +1582,7 @@ export const goblinNameTwo = {
     : "Krackleboom",
     : "Krazzlefrazz",
     : "Kwikfuse",
+    : "Uberglint",
     : "Kickfix",
     : "Madwire",
     : "Mag",

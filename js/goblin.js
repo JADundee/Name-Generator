@@ -850,10 +850,14 @@ export const goblinNameOneM = {
     : "Krick",
     : "Wrenix",
     : "Wumble",
+    : "Xink",
+    : "Xyrol",
+    : "Blar",
 }
 
 export const goblinNameOneF = {
     : "Macey",
+    : "Xifa",
     : "Libby",
     : "Wonka",
     : "Stoki",
@@ -1970,4 +1974,7 @@ export const goblinNameTwo = {
     : "Wrenchnozzle",
     : "Wrenchvolt",
     : "Wrenchwrecker",
+    : "Xim",
+    : "Xyzzik",
+    : "",
 }

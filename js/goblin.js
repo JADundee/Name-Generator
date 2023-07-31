@@ -397,10 +397,19 @@ export const goblinNameOneM = {
     : "Glodrak",
     : "Huxto",
     : "Huzzle",
+    : "Igore",
+    : "Jocas",
+    : "Argex",
+    : "Ironzar",
+    : "Isak",
+    : "Izwix",
 }
 
 export const goblinNameOneF = {
     : "Macey",
+    : "Izzy",
+    : "Izzee",
+    : "Carmen",
     : "Zelli",
     : "Skippy",
     : "Izzy",
@@ -990,4 +999,7 @@ export const goblinNameTwo = {
     : "Hullbolt",
     : "Huntsniper",
     : "Holen",
+    : "Ibanozzle",
+    : "Irongear",
+    : "Irongut",
 }

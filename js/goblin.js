@@ -853,10 +853,13 @@ export const goblinNameOneM = {
     : "Xink",
     : "Xyrol",
     : "Blar",
+    : "Mitch",
 }
 
 export const goblinNameOneF = {
     : "Macey",
+    : "Yoiks",
+    : "Yanney",
     : "Xifa",
     : "Libby",
     : "Wonka",
@@ -1976,5 +1979,5 @@ export const goblinNameTwo = {
     : "Wrenchwrecker",
     : "Xim",
     : "Xyzzik",
-    : "",
+    : "Yostpaddle",
 }

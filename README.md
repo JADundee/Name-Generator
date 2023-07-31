@@ -9,7 +9,6 @@
   # Forsaken
   # Tauren
   # Troll
-  # Goblin
   # Kul Tiran
   # Highmountain Tauren
   # Mag'har Orc

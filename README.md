@@ -7,10 +7,8 @@
   # Pandaren
   # Orc
   # Forsaken
-  # Tauren
   # Troll
   # Kul Tiran
-  # Highmountain Tauren
   # Mag'har Orc
   # Zandalari troll
 

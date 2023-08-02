@@ -635,6 +635,7 @@ export const taurenNameOneM = {
     : "Komin",
     : "Tah",
     : "Taiga",
+    : "Xarantaur",
 }
 
 export const taurenNameOneF = {

@@ -341,10 +341,25 @@ export const taurenNameOneM = {
     : "Nashashuk",
     : "Nehru",
     : "Nightholtaur",
+    : "Ohanko",
+    : "Orbeck",
+    : "Ordel",
+    : "Oriborataur",
+    : "Ornak",
+    : "Ornamm",
+    : "Osak",
+    : "Othros",
+    : "Otue",
+    : "Owato",
+    : "Ox",
 }
 
 export const taurenNameOneF = {
     : "Buniq",
+    : "",
+    : "Onatay",
+    : "Ochomu",
+    : "Jhawna",
     : "Nyse",
     : "Nizhoni",
     : "Nita",
@@ -803,4 +818,6 @@ export const taurenNameTwo = {
     : "Mountainpeak",
     : "Mournewind",
     : "Mourningsong",
+    : "Oatwind",
+    : "Oxswain",
 }

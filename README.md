@@ -13,8 +13,6 @@
   # Highmountain Tauren
   # Mag'har Orc
   # Zandalari troll
-  # Vulpera
-
 
 # Refactor generateNames() to ternary
 # Allow for nameTwo to = ""

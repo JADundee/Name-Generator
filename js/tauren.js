@@ -236,10 +236,19 @@ export const taurenNameOneM = {
     : "Kondal",
     : "Hurah",
     : "Hurnahet",
+    : "Iye",
+    : "Opuno",
+    : "Boro",
+    : "Torm",
+    : "Harant",
+    : "Iopi",
 }
 
 export const taurenNameOneF = {
     : "Buniq",
+    : "Isahi",
+    : "Isashi",
+    : "Hahrana",
     : "Moko",
     : "Honovi",
     : "Hodiin",
@@ -600,4 +609,9 @@ export const taurenNameTwo = {
     : "Hume",
     : "Huntsworn",
     : "Dawnhunter",
+    : "Ironbrace",
+    : "Ironfur",
+    : "Ironhide",
+    : "Ironhoof",
+    : "Ironhorn",
 }

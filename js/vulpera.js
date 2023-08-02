@@ -14,6 +14,12 @@ export const vulperaNameOneM = {
     : "Kipp",
     : "Kiro",
     : "Kitt",
+    : "Lugo",
+    : "Meeki",
+    : "Mekaru",
+    : "Mikrin",
+    : "Mnyeh",
+    : "Narishi",
 }
 
 export const vulperaNameOneF = {
@@ -36,6 +42,18 @@ export const vulperaNameOneF = {
     : "Kona",
     : "Korky",
     : "Kusa",
+    : "Iyali",
+    : "Leda",
+    : "Maaz",
+    : "Maiya",
+    : "Meerah",
+    : "Miri",
+    : "Neri",
+    : "Nilsa",
+    : "Nisha",
+    : "Norah",
+    : "Olive",
+    : "Omi",
 }
 
 export const vulperaNameTwo = {

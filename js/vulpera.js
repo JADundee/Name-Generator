@@ -3,6 +3,17 @@ export const vulperaNameOneM = {
     : "Amre",
     : "Dust",
     : "Boots",
+    : "Heiro",
+    : "Hakasi",
+    : "Hagashi",
+    : "Jenoh",
+    : "Keerin",
+    : "Keeyo",
+    : "Kenzou",
+    : "Keshet",
+    : "Kipp",
+    : "Kiro",
+    : "Kitt",
 }
 
 export const vulperaNameOneF = {
@@ -16,6 +27,15 @@ export const vulperaNameOneF = {
     : "Fifi",
     : "Elly",
     : "Gitah",
+    : "Haniko",
+    : "Hilda",
+    : "Jahri",
+    : "Jaki",
+    : "Jena",
+    : "Jeni",
+    : "Kona",
+    : "Korky",
+    : "Kusa",
 }
 
 export const vulperaNameTwo = {

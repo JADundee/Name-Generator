@@ -19,7 +19,7 @@ import { taurenNameOneM, taurenNameOneF, taurenNameTwo } from "./tauren.js";
 import { trollNameOneM, trollNameOneF, trollNameTwo } from "./troll.js";
 import { undeadNameOneM, undeadNameOneF, undeadNameTwo } from "./undead.js";
 import { voidElfNameOneM, voidElfNameOneF, voidElfNameTwo } from "./voidElf.js";
-import { vulperaNameOneM, vulperaNameOneF, vulperaNameTwo } from "./vulpera.js";
+import { vulperaNameOneM, vulperaNameOneF } from "./vulpera.js";
 import { worgenNameOneM, worgenNameOneF, worgenNameTwo } from "./worgen.js";
 import { zandalariTrollNameOneM, zandalariTrollNameOneF, zandalariTrollNameTwo } from "./zandalariTroll.js";
 
@@ -244,11 +244,11 @@ const generateNames = () => {
 
      if (raceSelection === "vulpera" && sexSelection === "male") {
         var nameOne = vulperaNameOneM;
-        var nameTwo = vulperaNameTwo 
+        var nameTwo = "" 
      }
     if (raceSelection === "vulpera" && sexSelection === "female") {
         var nameOne = vulperaNameOneF;
-        var nameTwo = vulperaNameTwo 
+        var nameTwo = "" 
      }
      
      if (raceSelection === "worgen" && sexSelection === "male") {

@@ -636,10 +636,21 @@ export const taurenNameOneM = {
     : "Tah",
     : "Taiga",
     : "Xarantaur",
+    : "Yaalo",
+    : "Kon",
+    : "Yorik",
+    : "Shon",
+    : "Nate",
 }
 
 export const taurenNameOneF = {
     : "Buniq",
+    : "Vira",
+    : "Shei'ann",
+    : "Yonada",
+    : "Yona",
+    : "Yiska",
+    : "Yepa",
     : "Lurah",
     : "Alawa",
     : "Nida",
@@ -1467,4 +1478,8 @@ export const taurenNameTwo = {
     : "Wisemane",
     : "Wiserunner",
     : "Wrathvine",
+    : "Yelloweyes",
+    : "Sharpeye",
+    : "Younghoof",
+    : "Yurisist",
 }

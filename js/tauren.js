@@ -242,10 +242,16 @@ export const taurenNameOneM = {
     : "Torm",
     : "Harant",
     : "Iopi",
+    : "Jarano",
+    : "Jo'hsu",
+    : "Jen'tay",
+    : "Jarud",
+    : "Joru",
 }
 
 export const taurenNameOneF = {
     : "Buniq",
+    : "Jandia",
     : "Isahi",
     : "Isashi",
     : "Hahrana",

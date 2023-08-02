@@ -371,10 +371,12 @@ export const taurenNameOneM = {
     : "Magran",
     : "Rumstag",
     : "Bren",
+    : "Retho",
 }
 
 export const taurenNameOneF = {
     : "Buniq",
+    : "Navi",
     : "Harona",
     : "Poobah",
     : "Harene",
@@ -873,4 +875,6 @@ export const taurenNameTwo = {
     : "Proudstep",
     : "Proudstrider",
     : "Puresun",
+    : "Quickdraw",
+    : "Quillmane",
 }

@@ -30,10 +30,22 @@ export const vulperaNameOneM = {
     : "Scrumpy",
     : "Sheko",
     : "Shuko",
+    : "Taji",
+    : "Teego",
+    : "Tucky",
+    : "Veeno",
+    : "Vigori",
+    : "Wenha",
+    : "Wiley",
 }
 
 export const vulperaNameOneF = {
     : "Aisha",
+    : "Vivi",
+    : "Viseta",
+    : "Tweekette",
+    : "Torra",
+    : "Tacha",
     : "Selene",
     : "Rori",
     : "Rinka",

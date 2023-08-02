@@ -114,10 +114,16 @@ export const highmountainTaurenNameOneM = {
     : "Ayan",
     : "Kimben",
     : "Sahale",
+    : "Dorro",
+    : "Rethu",
+    : "Lohfal",
+    : "Garuu",
 }
 
 export const highmountainTaurenNameOneF = {
     : "Halla",
+    : "Oenia",
+    : "Halewa",
     : "Mora",
     : "Gala",
     : "Nata",
@@ -329,4 +335,7 @@ export const highmountainTaurenNameTwo = {
     : "Wisehorn",
     : "Woodbridge",
     : "Woodheart",
+    : "Lightwind",
+    : "Riverhide",
+    : "Stonetail",
 }

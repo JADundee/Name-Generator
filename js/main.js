@@ -47,6 +47,12 @@ const clearSuggestions = () => {
 
 
 const generateNames = () => {
+
+
+
+
+
+   
     const raceSelection = document.getElementById("submitSection__races").value;
     const sexSelection = document.getElementById("submitSection__genders").value;
 
@@ -267,6 +273,10 @@ const generateNames = () => {
         var nameOne = zandalariTrollNameOneF;
         var nameTwo = zandalariTrollNameTwo 
      }
+
+     if (nameTwo === "") {
+       var nameTwo = nameOne
+     }
      
     
     const randomNumberArray1 = [];
@@ -276,13 +286,20 @@ const generateNames = () => {
         if (randomNumberArray1.includes(randomNumber1)) continue;
         randomNumberArray1.push(randomNumber1);
         i++;
+        /* if (nameOne.charLength > 12) {
+            return;
+        } */
     }
     for ( let i = 0; i < Object.values(nameTwo).length;) {
       const randomNumber2 = Math.floor(Math.random() * Object.values(nameTwo).length);
         if (randomNumberArray2.includes(randomNumber2)) continue;
         randomNumberArray2.push(randomNumber2);
         i++;
+        /* if (nameTwo.charLength > 12) {
+            return;
+        } */
     }
+    //todo name generator/ useable name generator
     //todo If char length > 12 return nameOne or nameTwo, if nameTwo == "" return nameOne
     //todo add 2 more suggestions
     const suggestion1 = nameOne[randomNumberArray1[3]] 
@@ -294,7 +311,24 @@ const generateNames = () => {
     const suggestion4 = nameOne[randomNumberArray1[0]] 
     + nameTwo[randomNumberArray2[3]];
 
-    return [suggestion1, suggestion2, suggestion3, suggestion4];
+   /*  const suggestion1 = nameOne[randomNumberArray1[3]]
+    const suggestion2 = nameTwo[randomNumberArray1[2]]
+    const suggestion3 = nameOne[randomNumberArray1[1]]
+    const suggestion4 = nameTwo[randomNumberArray1[0]]
+    const suggestion5 = nameOne[randomNumberArray1[2]]
+     + nameTwo[randomNumberArray2[2]];
+    const suggestion6 = nameOne[randomNumberArray1[3]]
+     + nameTwo[randomNumberArray2[1]];
+     const suggestion7 = nameOne[randomNumberArray1[1]]
+     + nameTwo[randomNumberArray2[3]] */
+
+   /*  if (suggestion5, suggestion6, suggestion7 > 12) {
+         //run function again
+    } */
+
+    
+
+    return [suggestion1, suggestion2, suggestion3, suggestion4, /* suggestion5, suggestion6, suggestion7 */];
     
     
 }

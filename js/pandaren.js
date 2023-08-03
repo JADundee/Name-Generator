@@ -499,10 +499,13 @@ export const pandarenNameOneM = {
     : "Uko",
     : "Gus",
     : "Urobi",
+    : "Vu",
 }
 
 export const pandarenNameOneF = {
     : "Blanche",
+    : "Vudia",
+    : "Vi",
     : "Odai",
     : "Li",
     : "Trista",
@@ -1179,4 +1182,6 @@ export const pandarenNameTwo = {
     : "Tsang",
     : "Tu",
     : "Tuna",
+    : "Vera",
+    : "Vinh",
 }

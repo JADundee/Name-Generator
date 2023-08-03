@@ -342,10 +342,21 @@ export const pandarenNameOneM = {
     : "Puli",
     : "Lo",
     : "Pyongxu",
+    : "Qaopao",
+    : "Qipan",
+    : "Qiu",
+    : "Quaro",
+    : "Jang",
+    : "Yan",
+    : "Qun",
 }
 
 export const pandarenNameOneF = {
     : "Blanche",
+    : "Kuona",
+    : "Jimin",
+    : "Qiao",
+    : "Qi",
     : "Ao",
     : "Puya",
     : "Poppy",
@@ -823,4 +834,6 @@ export const pandarenNameTwo = {
     : "Peony",
     : "Po",
     : "Pye",
+    : "Quickpaw",
+    : "Quillpaw",
 }

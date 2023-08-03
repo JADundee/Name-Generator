@@ -29,7 +29,6 @@ const initApp = () => {
     document.getElementById("submitForm").addEventListener("submit", (event) => {
         event.preventDefault();
         clearSuggestions();
-        // selected Race function
         const namesArray = generateNames();
         console.log(namesArray);
         displayNames(namesArray);
@@ -284,6 +283,8 @@ const generateNames = () => {
         randomNumberArray2.push(randomNumber2);
         i++;
     }
+    //todo If char length > 12 return nameOne or nameTwo, if nameTwo == "" return nameOne
+    //todo add 2 more suggestions
     const suggestion1 = nameOne[randomNumberArray1[3]] 
     + nameTwo[randomNumberArray2[0]];
     const suggestion2 = nameOne[randomNumberArray1[2]] 

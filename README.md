@@ -4,7 +4,6 @@
 
 # Complete names list via wowpedia:
   # Human
-  # Pandaren
   # Orc
   # Forsaken
   # Troll

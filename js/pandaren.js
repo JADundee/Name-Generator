@@ -317,10 +317,17 @@ export const pandarenNameOneM = {
     : "Noah",
     : "Nomi",
     : "Nurong",
+    : "Rensai",
+    : "Ogo",
+    : "Olon",
+    : "Oto",
+    : "Zhang",
 }
 
 export const pandarenNameOneF = {
     : "Blanche",
+    : "Oriana",
+    : "Hanshi",
     : "Nishi",
     : "Xiao",
     : "Nian",
@@ -774,4 +781,9 @@ export const pandarenNameTwo = {
     : "Narstave",
     : "Nguyen",
     : "Niao",
+    : "Oakenshield",
+    : "Oakhide",
+    : "Oakpaw",
+    : "Oxfoot",
+    : "Oxheart",
 }

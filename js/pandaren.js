@@ -495,6 +495,10 @@ export const pandarenNameOneM = {
     : "Tony",
     : "Ty",
     : "Tzu",
+    : "Ugi",
+    : "Uko",
+    : "Gus",
+    : "Urobi",
 }
 
 export const pandarenNameOneF = {

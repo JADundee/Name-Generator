@@ -17,7 +17,7 @@ import { orcNameOneM, orcNameOneF, orcNameTwo } from "./orc.js";
 import { pandarenNameOneM, pandarenNameOneF, pandarenNameTwo } from "./pandaren.js";
 import { taurenNameOneM, taurenNameOneF, taurenNameTwo } from "./tauren.js";
 import { trollNameOneM, trollNameOneF, trollNameTwo } from "./troll.js";
-import { undeadNameOneM, undeadNameOneF, undeadNameTwo } from "./undead.js";
+import { forsakenNameOneM, forsakenNameOneF, forsakenNameTwo } from "./forsaken.js";
 import { voidElfNameOneM, voidElfNameOneF, voidElfNameTwo } from "./voidElf.js";
 import { vulperaNameOneM, vulperaNameOneF } from "./vulpera.js";
 import { worgenNameOneM, worgenNameOneF, worgenNameTwo } from "./worgen.js";
@@ -229,13 +229,13 @@ const generateNames = () => {
         var nameTwo = trollNameTwo 
      }
 
-     if (raceSelection === "undead" && sexSelection === "male") {
-        var nameOne = undeadNameOneM;
-        var nameTwo = undeadNameTwo 
+     if (raceSelection === "forsaken" && sexSelection === "male") {
+        var nameOne = forsakenNameOneM;
+        var nameTwo = forsakenNameTwo 
      }
-    if (raceSelection === "undead" && sexSelection === "female") {
-        var nameOne = undeadNameOneF;
-        var nameTwo = undeadNameTwo 
+    if (raceSelection === "forsaken" && sexSelection === "female") {
+        var nameOne = forsakenNameOneF;
+        var nameTwo = forsakenNameTwo 
      }
 
      if (raceSelection === "voidElf" && sexSelection === "male") {
@@ -287,7 +287,7 @@ const generateNames = () => {
         randomNumberArray1.push(randomNumber1);
         i++;
         /* if (nameOne.charLength > 12) {
-            return;
+            //run again
         } */
     }
     for ( let i = 0; i < Object.values(nameTwo).length;) {
@@ -296,7 +296,7 @@ const generateNames = () => {
         randomNumberArray2.push(randomNumber2);
         i++;
         /* if (nameTwo.charLength > 12) {
-            return;
+            //run again
         } */
     }
     //todo name generator/ useable name generator
@@ -326,7 +326,7 @@ const generateNames = () => {
          //run function again
     } */
 
-    
+    // Filter out "'"
 
     return [suggestion1, suggestion2, suggestion3, suggestion4, /* suggestion5, suggestion6, suggestion7 */];
     

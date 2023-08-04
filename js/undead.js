@@ -579,10 +579,21 @@ export const undeadNameOneM = {
     : "Yarly",
     : "Quinn",
     : "Matthew",
+    : "Zackete",
+    : "Emerson",
+    : "Silas",
+    : "Zraedus",
+    : "Zygand",
 }
 
 export const undeadNameOneF = {
     : "Lilian",
+    : "Zinge",
+    : "Zem",
+    : "Zarise",
+    : "Zelana",
+    : "Zanra",
+    : "Zamah",
     : "Rane",
     : "Yanka",
     : "Wytula",
@@ -1625,4 +1636,9 @@ export const undeadNameTwo = {
     : "Xane",
     : "Yorick",
     : "Younglove",
+    : "Zandin",
+    : "Zantides",
+    : "Zarltin",
+    : "Zelling",
+    : "Zimmer",
 }

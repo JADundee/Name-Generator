@@ -531,10 +531,13 @@ export const undeadNameOneM = {
     : "Rutherford",
     : "Twirhp",
     : "Tyler",
+    : "Vance",
+    : "Uro",
 }
 
 export const undeadNameOneF = {
     : "Lilian",
+    : "Sydney",
     : "Tricket",
     : "Joan",
     : "Mirelle",
@@ -1472,4 +1475,7 @@ export const undeadNameTwo = {
     : "Trias",
     : "Trost",
     : "Tunsleworth",
+    : "Undergloom",
+    : "Underhill",
+    : "Upton",
 }

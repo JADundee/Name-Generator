@@ -5,7 +5,6 @@
 # Complete names list via wowpedia:
   # Human
   # Orc
-  # Forsaken
   # Troll
   # Kul Tiran
   # Mag'har Orc

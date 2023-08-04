@@ -401,10 +401,16 @@ export const undeadNameOneM = {
     : "Norman",
     : "Charles",
     : "Paul",
+    : "Oliver",
+    : "Brock",
+    : "Omedus",
+    : "Ossandran",
 }
 
 export const undeadNameOneF = {
     : "Lilian",
+    : "Megan",
+    : "Jennifer",
     : "Jamie",
     : "Velora",
     : "Avery",
@@ -1096,4 +1102,7 @@ export const undeadNameTwo = {
     : "Norris",
     : "North",
     : "Northpaul",
+    : "Olson",
+    : "Osgood",
+    : "Owings",
 }

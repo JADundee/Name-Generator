@@ -273,10 +273,21 @@ export const undeadNameOneM = {
     : "Rilan",
     : "Huwe",
     : "Albert",
+    : "Bethor",
+    : "Ickoris",
+    : "Igerdes",
+    : "Ignan",
+    : "Ikfirus",
+    : "Ilius",
 }
 
 export const undeadNameOneF = {
     : "Lilian",
+    : "Ismantal",
+    : "Isabel",
+    : "Isabella",
+    : "Ina",
+    : "Idina",
     : "Genevere",
     : "Natasha",
     : "Morairania",
@@ -765,4 +776,6 @@ export const undeadNameTwo = {
     : "Hutchins",
     : "Hyde",
     : "Hymnsorrow",
+    : "Iceshard",
+    : "Felfire",
 }

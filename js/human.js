@@ -1743,10 +1743,20 @@ export const humanNameOneM = {
     : "Jarold",
     : "Roberto",
     : "Galvar",
+    : "Quelen",
+    : "Ren",
+    : "Quimby",
+    : "Quine",
+    : "Quirk",
 }
 
 export const humanNameOneF = {
     : "Deliana",
+    : "Betty",
+    : "Stef",
+    : "Quae",
+    : "Melindra",
+    : "Qorra",
     : "Pyre",
     : "Mia",
     : "Larimaine",
@@ -4142,4 +4152,8 @@ export const humanNameTwo = {
     : "Purnell",
     : "Pyke",
     : "Pyle",
+    : "Quarry",
+    : "Quickhand",
+    : "Quin",
+    : "Quinn",
 }

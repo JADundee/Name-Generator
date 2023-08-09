@@ -2108,10 +2108,20 @@ export const humanNameOneM = {
     : "Tyrannus",
     : "Tyric",
     : "Tyrius",
+    : "Edrias",
+    : "Ulric",
+    : "Ulrich",
+    : "Umber",
+    : "Umbranse",
+    : "Urik",
+    : "Urom",
+    : "Uther",
 }
 
 export const humanNameOneF = {
     : "Deliana",
+    : "Tess",
+    : "Ulrike",
     : "Georgitte",
     : "Tyriona",
     : "Valea",
@@ -5122,4 +5132,8 @@ export const humanNameTwo = {
     : "Twinblades",
     : "Tyron",
     : "Tyrosus",
+    : "Ulnur",
+    : "Undertide",
+    : "Underwood",
+    : "Lightbringer",
 }

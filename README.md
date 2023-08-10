@@ -3,10 +3,8 @@
 # Update styling
 
 # Complete names list via wowpedia:
-  # Human
   # Orc
   # Troll
-  # Kul Tiran
   # Mag'har Orc
   # Zandalari troll
 

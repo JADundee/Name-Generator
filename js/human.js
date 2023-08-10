@@ -2257,10 +2257,14 @@ export const humanNameOneM = {
     : "Wymor",
     : "Halford",
     : "Henrick",
+    : "Xavius",
+    : "Xylem",
+    : "Xingief",
 }
 
 export const humanNameOneF = {
     : "Deliana",
+    : "Xanesh",
     : "Inora",
     : "Tessa",
     : "Varia",

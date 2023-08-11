@@ -72,6 +72,10 @@ export const zandalariTrollNameOneM = {
     : "Don'ad",
     : "Dohaman",
     : "Drekal",
+    : "Er'eek",
+    : "Ekon",
+    : "Exzhal",
+    : "E'ban",
     : "Dokah",
     : "Dregada",
     : "Druga",
@@ -80,6 +84,7 @@ export const zandalariTrollNameOneM = {
 
 export const zandalariTrollNameOneF = {
     : "Dafini",
+    : "Eliz'beth",
     : "Div'yane",
     : "Dagoda",
     : "Shinga",

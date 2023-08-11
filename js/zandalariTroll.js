@@ -80,10 +80,15 @@ export const zandalariTrollNameOneM = {
     : "Dregada",
     : "Druga",
     : "Druku",
+    : "Falthir",
+    : "Jahden",
+    : "Fred",
+    : "Fritz",
 }
 
 export const zandalariTrollNameOneF = {
     : "Dafini",
+    : "Fuhn'ki",
     : "Eliz'beth",
     : "Div'yane",
     : "Dagoda",
@@ -135,6 +140,7 @@ export const zandalariTrollNameTwo = {
     : "An'drade",
     : "Coinkeeper",
     : "Chal",
+    : "Fla",
     : "Buz'ack",
     : "Zubo",
     : "Abul'housin",

@@ -117,7 +117,11 @@ export const zandalariTrollNameOneM = {
     : "Hozzul",
     : "Huk",
     : "Hukari",
+    : "Lo'meli",
     : "Hula'mon",
+    : "Ismael",
+    : "Itai",
+    : "Iyan",
 }
 
 export const zandalariTrollNameOneF = {
@@ -155,6 +159,7 @@ export const zandalariTrollNameOneF = {
     : "Bah'Kini",
     : "B'wizati",
     : "Azala",
+    : "Iluna",
     : "Atulanji",
     : "Ash'tari",
     : "Asgari",
@@ -178,10 +183,13 @@ export const zandalariTrollNameOneF = {
     : "Atal'Jani",
     : "Akunda",
     : "Aman",
+    : "Atal'jamba",
 }
 
 export const zandalariTrollNameTwo = {
     : "Deathwalker",
+    : "Ironglare",
+    : "Iri",
     : "Hakkit",
     : "Gozzako",
     : "Gotaka",

@@ -236,10 +236,17 @@ export const zandalariTrollNameOneM = {
     : "Nokano",
     : "Norm",
     : "Nurkala",
+    : "Ofer",
+    : "Ogopo",
+    : "Tella",
+    : "Olly",
 }
 
 export const zandalariTrollNameOneF = {
     : "Dafini",
+    : "Otoye",
+    : "Oinga",
+    : "O'livia",
     : "Nuya",
     : "Nujia",
     : "Nofal",

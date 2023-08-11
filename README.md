@@ -6,7 +6,6 @@
   # Orc
   # Troll
   # Mag'har Orc
-  # Zandalari troll
 
 # Refactor generateNames() to ternary
 # Allow for nameTwo to = ""

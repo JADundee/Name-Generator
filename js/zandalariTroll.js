@@ -335,6 +335,7 @@ export const zandalariTrollNameOneM = {
     : "Taxson",
     : "Vud'ka",
     : "Teki",
+    : "Wees'ki",
     : "Tenoch",
     : "Teshunji",
     : "Tesinjo",
@@ -356,10 +357,13 @@ export const zandalariTrollNameOneM = {
     : "Venoxis",
     : "Vinchaxa",
     : "Vunanju",
+    : "Zunaga",
 }
 
 export const zandalariTrollNameOneF = {
     : "Dafini",
+    : "Watae",
+    : "Wasi",
     : "Vulnullu",
     : "Vulja",
     : "Vor'sul",
@@ -621,6 +625,7 @@ export const zandalariTrollNameTwo = {
     : "Vileblade",
     : "Ungo",
     : "Ujani",
+    : "Wana",
     : "Ja'nessa",
     : "Abul'housin",
     : "Ack'uff",

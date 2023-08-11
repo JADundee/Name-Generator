@@ -339,6 +339,7 @@ export const zandalariTrollNameOneM = {
     : "Tenoch",
     : "Xi'pe",
     : "Teshunji",
+    : "Yoru'cha",
     : "Tesinjo",
     : "Tezi",
     : "Tezlekhan",
@@ -370,6 +371,10 @@ export const zandalariTrollNameOneM = {
 
 export const zandalariTrollNameOneF = {
     : "Dafini",
+    : "Yana",
+    : "Yazma",
+    : "Yelhem",
+    : "Yamuna",
     : "Xis",
     : "Watae",
     : "Wasi",

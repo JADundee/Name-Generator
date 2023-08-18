@@ -1077,11 +1077,26 @@ export const orcNameOneM = {
     : "Ortuk",
     : "Oruk",
     : "Ott",
+    : "Palleae",
+    : "Palkar",
+    : "Takrin",
+    : "Pettra",
+    : "Pogg",
+    : "Zugunk",
+    : "Pokhar",
+    : "Progk",
+    : "Prug",
+    : "Pugg",
 
 }
 
 export const orcNameOneF = {
     : "Acrypha",
+    : "Purkom",
+    : "Punra",
+    : "Prigka",
+    : "Preda",
+    : "Pooka",
     : "Ounda",
     : "Othana",
     : "Orukan",
@@ -1847,4 +1862,6 @@ export const orcNameTwo = {
     : "Omosh",
     : "OneEye",
     : "Orhan",
+    : "Pathseeker",
+    : "Poisonfiend",
 }

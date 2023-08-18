@@ -1503,6 +1503,10 @@ export const orcNameOneM = {
     : "Mastok",
     : "Ma'ruk",
     : "Wuark",
+    : "Xuk",
+    : "Xutjja",
+    : "Xi'lun",
+    : "Xorenth",
     
 }
 

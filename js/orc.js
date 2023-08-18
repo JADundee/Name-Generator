@@ -1505,13 +1505,23 @@ export const orcNameOneM = {
     : "Wuark",
     : "Xuk",
     : "Xutjja",
+    : "Y'rogg",
     : "Xi'lun",
     : "Xorenth",
+    : "Yagnar",
+    : "Yelmak",
+    : "Yozshura",
+    : "Yugrek",
+    : "Yukha",
     
 }
 
 export const orcNameOneF = {
     : "Acrypha",
+    : "Yoske",
+    : "Yala",
+    : "Yazheera",
+    : "Yaga",
     : "Morah",
     : "Breka",
     : "Shyrka",

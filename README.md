@@ -3,9 +3,7 @@
 # Update styling
 
 # Complete names list via wowpedia:
-  # Orc
   # Troll
-  # Mag'har Orc
 
 # Refactor generateNames() to ternary
 # Allow for nameTwo to = ""

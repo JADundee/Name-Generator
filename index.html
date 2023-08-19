@@ -31,10 +31,13 @@
                 Region: <select name="submitSection__regions" id="submitSection__regions" required>
                     <option selected disabled value="">Select your Region</option>
                 </select>
+
                 <br><br>
+
                 Server: <select name="submitSection__servers" id="submitSection__servers" required>
                   <option selected disabled value="">Please select region first</option>
                 </select>
+                
                 Race: <select name="submitSection__races" id="submitSection__races" required>
                   <option selected disabled value="">Select a race</option>
 
@@ -62,12 +65,13 @@
                   <option value="vulpera">Vulpera</option>
                   <option value="worgen">Worgen</option>
                   <option value="zandalariTroll">Zandalari Troll</option>
+                  
                 </select>
 
                 <fieldset>
                 <legend>Gender:</legend>
                 <p>
-                <input type="radio" name="gender" id="submitSection__genders" value="male" >  
+                    <input type="radio" name="gender" id="submitSection__genders" value="male" required >  
                 <label for="submitSection__genders">Male</label>
                 </p>
                 <p>
@@ -76,24 +80,22 @@
                     </p>
                 </fieldset>
 
-                <fieldset>
+                
                 <legend>Toggle Blizzard Parameter Filter:</legend>
                 <p>
-                    <input type="checkbox" name="submitSection__checkbox" id="submitSection__checkbox" value="submitSection__checkbox">
+                    <input type="checkbox" name="checkbox" id="submitSection__checkbox">
                     <label for="submitSection__checkbox">On</label>
                 </p>
-            </fieldset>
                 
 
                 <button class="submitSection__button" aria-label="Submit" type="submit" formaction="">
                     <i class="fa-solid fa-dice" style="color: #dcdcdc;"></i> Roll Names
                 </button>
 
-            </form>
-
-            
+            </form>   
 
          </section>
+
 
          <section id="suggestionSection" class="suggestionSection hidden">
             <h2>Generated Names:</h2>

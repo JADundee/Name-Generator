@@ -46,13 +46,31 @@ const clearSuggestions = () => {
 
 const generateNames = () => {
 
-    const raceSelection = document.getElementById("submitSection__races").value;
-    const sexSelection = document.querySelector('input[name="gender"]:checked').value
+    var raceSelection = document.getElementById("submitSection__races").value;
+    var sexSelection = document.querySelector('input[name="gender"]:checked').value
     
 
     //TODO: ternary statement refactor
 
-    if (raceSelection === "bloodElf" && sexSelection === "male") {
+
+
+    var nameOne =
+        sexSelection === "male"
+        ? raceSelection + "NameOneM"
+        : raceSelection + "NameOneF"
+
+
+    var nameTwo =
+        raceSelection === ("dracthyr", "draenei", "lightforgedDraenei", "vulpera")
+        ? nameTwo = nameOne
+        : raceSelection + "NameTwo"
+
+        console.log(nameOne)
+        console.log(nameTwo)
+        
+     
+
+   /*  if (raceSelection === "bloodElf" && sexSelection === "male") {
         var nameOne = bloodElfNameOneM;
         var nameTwo = bloodElfNameTwo 
      }
@@ -270,7 +288,7 @@ const generateNames = () => {
 
      if (nameTwo === "") {
        var nameTwo = nameOne
-     }
+     } */
      
      
     const randomNumberArray1 = [];
@@ -351,8 +369,6 @@ const generateNames = () => {
             var roll6 = suggestionSix
         }
     }
-
-console.log(document.querySelector('input[name="checkbox"]').checked)
 
     return [roll1, roll2, roll3, roll4, roll5, roll6]
 

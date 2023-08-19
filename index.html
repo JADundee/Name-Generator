@@ -26,7 +26,8 @@
             <h2 id="formHeader" class="formHeader">Select a Region and Server to Roll Names</h2>
 
 
-            <form name="submitForm" id="submitForm" class="submitSection__form" >
+            <form name="submitForm" id="submitForm" class="submitSection__form">
+            
                 Region: <select name="submitSection__regions" id="submitSection__regions" required>
                     <option selected disabled value="">Select your Region</option>
                 </select>
@@ -63,11 +64,26 @@
                   <option value="zandalariTroll">Zandalari Troll</option>
                 </select>
 
-                Gender: <select name="submitSection__genders" id="submitSection__genders" required>
-                    <option selected disabled value="">Select a gender</option>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    </select>
+                <fieldset>
+                <legend>Gender:</legend>
+                <p>
+                <input type="radio" name="gender" id="submitSection__genders" value="male" >  
+                <label for="submitSection__genders">Male</label>
+                </p>
+                <p>
+                    <input type="radio" name="gender" id="submitSection__genders" value="female">  
+                    <label for="submitSection__genders">Female</label>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                <legend>Toggle Blizzard Parameter Filter:</legend>
+                <p>
+                    <input type="checkbox" name="submitSection__checkbox" id="submitSection__checkbox" value="submitSection__checkbox">
+                    <label for="submitSection__checkbox">On</label>
+                </p>
+            </fieldset>
+                
 
                 <button class="submitSection__button" aria-label="Submit" type="submit" formaction="">
                     <i class="fa-solid fa-dice" style="color: #dcdcdc;"></i> Roll Names

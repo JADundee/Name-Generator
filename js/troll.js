@@ -362,7 +362,9 @@ export const trollNameOneM = {
     : "Moxo",
     : "Nyn'jah",
     : "Muffinmon",
+    : "Ojo'mon",
     : "Munalti",
+    : "Orik'ando",
     : "Nakansi",
     : "Natoj",
     : "Nereus",
@@ -370,10 +372,15 @@ export const trollNameOneM = {
     : "Nimboya",
     : "Nortet",
     : "Novo",
+    : "Ogom",
+    : "Ohodo",
+    : "Ohseso",
+    : "Orglum",
 }
 
 export const trollNameOneF = {
     : "Hexx",
+    : "Ortezza",
     : "Nuku'te",
     : "Notera",
     : "Norsala",

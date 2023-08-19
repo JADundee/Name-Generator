@@ -140,12 +140,29 @@ export const trollNameOneM = {
     : "Wushoolay",
     : "Zalazane",
     : "Zazla",
+    : "Abu'gar",
     : "Zul'Lor",
     : "Zolo",
+    : "Atal'alarion",
+    : "Ash'ergi",
+    : "Ki'ta",
+    : "Ant'su",
+    : "Ana'thek",
+    : "An'timon",
+    : "Al'jibo",
+    : "Ahaxxa",
+    : "Atalmhuto",
 }
 
 export const trollNameOneF = {
     : "Hexx",
+    : "Askia",
+    : "Arin'sor",
+    : "Ardsami",
+    : "Ankali",
+    : "Alascene",
+    : "Ameenah",
+    : "Akanja",
     : "Sha'ni",
     : "Izita",
     : "Zathra",
@@ -220,6 +237,7 @@ export const trollNameOneF = {
 
 export const trollNameTwo = {
     : "Eaglebane",
+    : "Arrowtusk",
     : "Proudtusk",
     : "Moji'ko",
     : "Hatefowler",

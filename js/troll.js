@@ -238,6 +238,7 @@ export const trollNameOneM = {
     : "Hakkuz",
     : "Hula'mahi",
     : "Hanashi",
+    : "Iku'tak",
     : "Haymon",
     : "Hazlek",
     : "JoJo",
@@ -246,10 +247,12 @@ export const trollNameOneM = {
     : "Najak",
     : "Hiro",
     : "Huju",
+    : "Indalamar",
 }
 
 export const trollNameOneF = {
     : "Hexx",
+    : "Ilalu",
     : "Hu'rala",
     : "Hola'mahi",
     : "Hira'jin",

@@ -535,12 +535,21 @@ export const trollNameOneM = {
     : "Voll",
     : "Vuz'din",
     : "Volrath",
+    : "Waz'luk",
     : "Vornal",
+    : "Wik'Tar",
     : "Vulajin",
+    : "Wazzuli",
+    : "Wodin",
+    : "Wodyn",
+    : "Wulan",
 }
 
 export const trollNameOneF = {
     : "Hexx",
+    : "Wysko",
+    : "Won'sa",
+    : "Wish",
     : "Voriya",
     : "Veka'kai",
     : "Vehini",
@@ -911,4 +920,5 @@ export const trollNameTwo = {
     : "Truslice",
     : "Twotusk",
     : "Venomtusk",
+    : "Wildmender",
 }

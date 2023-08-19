@@ -386,6 +386,7 @@ export const trollNameOneM = {
 
 export const trollNameOneF = {
     : "Hexx",
+    : "Qu'in",
     : "Kengtus",
     : "Pikake",
     : "Phloem",

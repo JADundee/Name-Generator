@@ -24,7 +24,6 @@ import { worgenNameOneM, worgenNameOneF, worgenNameTwo } from "./worgen.js";
 import { zandalariTrollNameOneM, zandalariTrollNameOneF, zandalariTrollNameTwo } from "./zandalariTroll.js";
 
 
-
 const initApp = () => {
     document.getElementById("submitForm").addEventListener("submit", (event) => {
         event.preventDefault();
@@ -45,16 +44,11 @@ const clearSuggestions = () => {
 }
 
 
-
 const generateNames = () => {
 
-
-
-
-
-   
     const raceSelection = document.getElementById("submitSection__races").value;
-    const sexSelection = document.getElementById("submitSection__genders").value;
+    const sexSelection = document.querySelector('input[name="gender"]:checked').value
+    
 
     //TODO: ternary statement refactor
 
@@ -278,7 +272,7 @@ const generateNames = () => {
        var nameTwo = nameOne
      }
      
-    
+     
     const randomNumberArray1 = [];
     const randomNumberArray2 = [];
     for (let i = 0; i < Object.values(nameOne).length;) {
@@ -286,51 +280,82 @@ const generateNames = () => {
         if (randomNumberArray1.includes(randomNumber1)) continue;
         randomNumberArray1.push(randomNumber1);
         i++;
-        /* if (nameOne.charLength > 12) {
-            //run again
-        } */
+   
     }
     for ( let i = 0; i < Object.values(nameTwo).length;) {
       const randomNumber2 = Math.floor(Math.random() * Object.values(nameTwo).length);
         if (randomNumberArray2.includes(randomNumber2)) continue;
         randomNumberArray2.push(randomNumber2);
         i++;
-        /* if (nameTwo.charLength > 12) {
-            //run again
-        } */
-    }
-    //todo name generator/ useable name generator
-    //todo If char length > 12 return nameOne or nameTwo, if nameTwo == "" return nameOne
-    //todo add 2 more suggestions
+    }   
+
     const suggestion1 = nameOne[randomNumberArray1[3]] 
-    + nameTwo[randomNumberArray2[0]];
+    
     const suggestion2 = nameOne[randomNumberArray1[2]] 
-    + nameTwo[randomNumberArray2[1]];
+    
     const suggestion3 = nameOne[randomNumberArray1[1]] 
-    + nameTwo[randomNumberArray2[2]];
-    const suggestion4 = nameOne[randomNumberArray1[0]] 
-    + nameTwo[randomNumberArray2[3]];
-
-   /*  const suggestion1 = nameOne[randomNumberArray1[3]]
-    const suggestion2 = nameTwo[randomNumberArray1[2]]
-    const suggestion3 = nameOne[randomNumberArray1[1]]
-    const suggestion4 = nameTwo[randomNumberArray1[0]]
-    const suggestion5 = nameOne[randomNumberArray1[2]]
-     + nameTwo[randomNumberArray2[2]];
-    const suggestion6 = nameOne[randomNumberArray1[3]]
-     + nameTwo[randomNumberArray2[1]];
-     const suggestion7 = nameOne[randomNumberArray1[1]]
-     + nameTwo[randomNumberArray2[3]] */
-
-   /*  if (suggestion5, suggestion6, suggestion7 > 12) {
-         //run function again
-    } */
-
-    // Filter out "'"
-
-    return [suggestion1, suggestion2, suggestion3, suggestion4, /* suggestion5, suggestion6, suggestion7 */];
     
-    
+    const suggestion4 = nameOne[randomNumberArray1[0]]
+
+    const suggestion5 = nameTwo[randomNumberArray2[1]] 
+
+    const suggestion6 = nameTwo[randomNumberArray2[3]] 
+
+    const suggestion7 = nameTwo[randomNumberArray2[0]] 
+
+    const suggestion8 = nameTwo[randomNumberArray2[1]] 
+
+    const suggestion9 = nameTwo[randomNumberArray2[1]] 
+
+    const suggestion10 = nameTwo[randomNumberArray2[0]] 
+
+
+    const regex =  /\w+/g;
+    const suggestionOne = suggestion1.match(regex).join('')
+    const suggestionTwo = suggestion2.match(regex).join('')
+    const suggestionThree = suggestion3.match(regex).join('')
+    const suggestionFour = suggestion4.match(regex).join('')
+    const suggestionFive = suggestion5.match(regex).join('')
+    const suggestionSix = suggestion6.match(regex).join('')
+    const suggestionSeven = suggestion7.match(regex).join('')
+    const suggestionEight = suggestion8.match(regex).join('')
+
+    var roll5 = suggestion9.match(regex).join('')
+    var roll6 = suggestion10.match(regex).join('')
+
+
+    var roll1 = suggestionOne + suggestionFive
+    var roll2 = suggestionTwo + suggestionSix
+    var roll3 = suggestionThree + suggestionSeven
+    var roll4 = suggestionFour + suggestionEight
+
+   
+    if (document.querySelector('input[name="checkbox"]').checked === true) {
+
+        if (roll1.length > 12) {
+            var roll1 = suggestionOne
+        }
+        if (roll2.length > 12) {
+            var roll2 = suggestionTwo
+        }
+        if (roll3.length > 12) {
+            var roll3 = suggestionThree
+        }
+        if (roll4.length > 12) {
+            var roll4 = suggestionFour
+        }
+        if (roll5.length > 12) {
+            var roll5 = suggestionFive
+        }
+        if (roll6.length > 12) {
+            var roll6 = suggestionSix
+        }
+    }
+
+console.log(document.querySelector('input[name="checkbox"]').checked)
+
+    return [roll1, roll2, roll3, roll4, roll5, roll6]
+
 }
 
 

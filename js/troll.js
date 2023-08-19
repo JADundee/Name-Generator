@@ -165,14 +165,21 @@ export const trollNameOneM = {
     : "Bazuulu",
     : "Bru'kan",
     : "Berger",
+    : "Ca'nees",
     : "Bomsanchu",
+    : "Caz'lek",
     : "Braddok",
+    : "Col'in",
     : "Zubaji",
     : "Gheeda",
+    : "Cannon",
 }
 
 export const trollNameOneF = {
     : "Hexx",
+    : "Atal'ai",
+    : "Crysa",
+    : "Cona",
     : "Bwu'ja",
     : "Bwemba",
     : "Buunu",

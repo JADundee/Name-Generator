@@ -386,33 +386,53 @@ const displayNames = (namesArray) => {
     const list = document.querySelector('.suggestionSection ol');
     const region = document.getElementById("submitSection__regions").value;
     const server = regionObject[region][document.getElementById("submitSection__servers").value];
+
+
+    namesArray.forEach(name => {
+        list.innerHTML += `<ul><a>${name}</a> 
+        </ul>`;
+});
+
    
-    /* namesArray.forEach(name => {
+   /*  namesArray.forEach(name => {
             list.innerHTML += `<ul>
-            <a href="https://worldofwarcraft.blizzard.com/en-us/character/${region}/${server}/${name}" target="_blank">${name}</a>
+             <a href="https://worldofwarcraft.blizzard.com/en-us/character/${region}/${server}/${name}" target="_blank">${name}</a> 
             </ul>`;
-    });
+    }); */
     const display = document.getElementById("suggestionSection");
     if (display.classList.contains("hidden")) display.classList.toggle("hidden");
- */
 
-    let url = `https://worldofwarcraft.blizzard.com/en-us/character/${region}/${server}/${name}`;
+    var Selection = document.getElementById('rolls');
+    Selection.addEventListener('click', listItemText);
+    function listItemText(event) {
+        console.log(event.target.textContent);
+    }
+
+    let url = `https://worldofwarcraft.blizzard.com/en-us/character/${region}/${server}/${Selection}`;
     function urlExists(url, callback) {
     fetch(url, { method: 'head' })
     .then(function(status) {
       callback(status.ok)
     });
-  }
+}
+
   
-    urlExists(url, function(exists) {
+urlExists(url, function(exists) {
         if (exists) {
-        alert(`${name} is available on ${serverSel}!`)
+        alert(`${Selection} is available on ${server}!`)
         } else {
-        alert(`${name} is taken on ${serverSel}.`)
+        alert(`${Selection} is taken on ${server}.`)
         }
 });
+
+
+    
     
 }
+
+
+
+
 
 var regionObject = {
     

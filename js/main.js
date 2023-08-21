@@ -402,8 +402,7 @@ const displayNames = (namesArray) => {
     const display = document.getElementById("suggestionSection");
     if (display.classList.contains("hidden")) display.classList.toggle("hidden");
 
-    var Selection = document.getElementById('rolls');
-    Selection.addEventListener('click', listItemText);
+    var Selection = document.getElementById('rolls').addEventListener('click', listItemText);
     function listItemText(event) {
         console.log(event.target.textContent);
     }

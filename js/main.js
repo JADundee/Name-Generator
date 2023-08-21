@@ -347,7 +347,6 @@ const generateNames = () => {
     var roll5 = suggestion9.match(regex).join('')
     var roll6 = suggestion10.match(regex).join('')
 
-
     var roll1 = suggestionOne + suggestionFive
     var roll2 = suggestionTwo + suggestionSix
     var roll3 = suggestionThree + suggestionSeven
@@ -377,7 +376,6 @@ const generateNames = () => {
     }
 
     return [roll1, roll2, roll3, roll4, roll5, roll6]
-
 }
 
 
@@ -387,46 +385,36 @@ const displayNames = (namesArray) => {
     const region = document.getElementById("submitSection__regions").value;
     const server = regionObject[region][document.getElementById("submitSection__servers").value];
 
-
     namesArray.forEach(name => {
         list.innerHTML += `<ul><a>${name}</a> 
         </ul>`;
-});
+    });
 
-   
-   /*  namesArray.forEach(name => {
-            list.innerHTML += `<ul>
-             <a href="https://worldofwarcraft.blizzard.com/en-us/character/${region}/${server}/${name}" target="_blank">${name}</a> 
-            </ul>`;
-    }); */
     const display = document.getElementById("suggestionSection");
     if (display.classList.contains("hidden")) display.classList.toggle("hidden");
 
-    var Selection = document.getElementById('rolls').addEventListener('click', listItemText);
-    function listItemText(event) {
-        console.log(event.target.textContent);
-    }
+    document.getElementById('rolls').addEventListener('click', check);
+    function check(event) {
+        
+        var selection = event.target.textContent
 
-    let url = `https://worldofwarcraft.blizzard.com/en-us/character/${region}/${server}/${Selection}`;
-    function urlExists(url, callback) {
-    fetch(url, { method: 'head' })
-    .then(function(status) {
-      callback(status.ok)
-    });
-}
-
-  
-urlExists(url, function(exists) {
-        if (exists) {
-        alert(`${Selection} is available on ${server}!`)
-        } else {
-        alert(`${Selection} is taken on ${server}.`)
+        let url = `'https://cors-anywhere.herokuapp.com/https://worldofwarcraft.blizzard.com/en-us/character/${region}/${server}/${selection}`;
+        function urlExists(url, callback) {
+        fetch(url, { method: 'head' })
+        .then(function(status) {
+        callback(status.ok)
+        });
         }
-});
+        urlExists(url, function(exists) {
+        if (exists) {
+        alert(`${selection} is available on ${server}!`)
+        } else {
+        alert(`${selection} is taken on ${server}.`)
+        }
+        });
 
-
-    
-    
+        document.getElementById('rolls').removeEventListener('click', check);
+        }   
 }
 
 

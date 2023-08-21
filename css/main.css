@@ -189,10 +189,4 @@ ol {
     margin-left: 40px;
     font-size: 1.5rem;
 }
-
-ol a:focus,
-ol a:hover,
-ol a:active {
-    cursor: url(../img/cursorS.cur) 8 4, default;
-}
 }

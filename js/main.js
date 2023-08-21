@@ -380,6 +380,7 @@ const generateNames = () => {
 
 
 
+
 const displayNames = (namesArray) => {
     const list = document.querySelector('.suggestionSection ol');
     const region = document.getElementById("submitSection__regions").value;
@@ -411,11 +412,22 @@ const displayNames = (namesArray) => {
         } else {
         alert(`${selection} is taken on ${server}.`)
         }
+        
         });
 
-        document.getElementById('rolls').removeEventListener('click', check);
-        }   
+        
+        }  
+
+        /* document.getElementById('button').addEventListener('reset', checked);
+        function checked() {
+            
+        } */
+       
 }
+
+
+
+//todo reset check() on roll name selection
 
 
 

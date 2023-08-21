@@ -54,8 +54,10 @@ const generateNames = () => {
 
 
 
-    var nameOne =
-        sexSelection === "male"
+
+
+   /*  var nameOne =
+        sexSelection === "male" && raceSelection === "bloodElf"
         ? raceSelection + "NameOneM"
         : raceSelection + "NameOneF"
 
@@ -65,12 +67,16 @@ const generateNames = () => {
         ? nameTwo = nameOne
         : raceSelection + "NameTwo"
 
+
+
         console.log(nameOne)
         console.log(nameTwo)
+ */
+        
         
      
 
-   /*  if (raceSelection === "bloodElf" && sexSelection === "male") {
+    if (raceSelection === "bloodElf" && sexSelection === "male") {
         var nameOne = bloodElfNameOneM;
         var nameTwo = bloodElfNameTwo 
      }
@@ -288,7 +294,7 @@ const generateNames = () => {
 
      if (nameTwo === "") {
        var nameTwo = nameOne
-     } */
+     }
      
      
     const randomNumberArray1 = [];
@@ -381,17 +387,16 @@ const displayNames = (namesArray) => {
     const region = document.getElementById("submitSection__regions").value;
     const server = regionObject[region][document.getElementById("submitSection__servers").value];
    
-    namesArray.forEach(name => {
+    /* namesArray.forEach(name => {
             list.innerHTML += `<ul>
             <a href="https://worldofwarcraft.blizzard.com/en-us/character/${region}/${server}/${name}" target="_blank">${name}</a>
             </ul>`;
     });
     const display = document.getElementById("suggestionSection");
     if (display.classList.contains("hidden")) display.classList.toggle("hidden");
+ */
 
-
-    // TODO:
-    /* let url = `https://worldofwarcraft.blizzard.com/en-us/character/${region}/${server}/${name}`;
+    let url = `https://worldofwarcraft.blizzard.com/en-us/character/${region}/${server}/${name}`;
     function urlExists(url, callback) {
     fetch(url, { method: 'head' })
     .then(function(status) {
@@ -405,7 +410,7 @@ const displayNames = (namesArray) => {
         } else {
         alert(`${name} is taken on ${serverSel}.`)
         }
-}); */
+});
     
 }
 

@@ -1,35 +1,34 @@
-import { bloodElfNameOneM, bloodElfNameOneF, bloodElfNameTwo } from "./bloodElf.js";
-import { darkironDwarfNameOneM, darkironDwarfNameOneF, darkironDwarfNameTwo } from "./darkironDwarf.js";
-import { dracthyrNameOneM, dracthyrNameOneF } from "./dracthyr.js";
-import { draeneiNameOneM, draeneiNameOneF, } from "./draenei.js";
-import { dwarfNameOneM, dwarfNameOneF, dwarfNameTwo } from "./dwarf.js";
-import { gnomeNameOneM, gnomeNameOneF, gnomeNameTwo } from "./gnome.js";
-import { goblinNameOneM, goblinNameOneF, goblinNameTwo } from "./goblin.js";
-import { highmountainTaurenNameOneM, highmountainTaurenNameOneF, highmountainTaurenNameTwo } from "./highmountainTauren.js";
-import { humanNameOneM, humanNameOneF, humanNameTwo } from "./human.js";
-import { kulTiranNameOneM, kulTiranNameOneF, kulTiranNameTwo } from "./kulTiran.js";
-import { lightforgedDraeneiNameOneM, lightforgedDraeneiNameOneF } from "./lightforgedDraenei.js";
-import { magharOrcNameOneM, magharOrcNameOneF, magharOrcNameTwo } from "./mag'harOrc.js";
-import { mechagnomeNameOneM, mechagnomeNameOneF, mechagnomeNameTwo } from "./mechagnome.js";
-import { nightborneNameOneM, nightborneNameOneF, nightborneNameTwo } from "./nightborne.js";
-import { nightElfNameOneM, nightElfNameOneF, nightElfNameTwo } from "./nightElf.js";
-import { orcNameOneM, orcNameOneF, orcNameTwo } from "./orc.js";
-import { pandarenNameOneM, pandarenNameOneF, pandarenNameTwo } from "./pandaren.js";
-import { taurenNameOneM, taurenNameOneF, taurenNameTwo } from "./tauren.js";
-import { trollNameOneM, trollNameOneF, trollNameTwo } from "./troll.js";
-import { forsakenNameOneM, forsakenNameOneF, forsakenNameTwo } from "./forsaken.js";
-import { voidElfNameOneM, voidElfNameOneF, voidElfNameTwo } from "./voidElf.js";
-import { vulperaNameOneM, vulperaNameOneF } from "./vulpera.js";
-import { worgenNameOneM, worgenNameOneF, worgenNameTwo } from "./worgen.js";
-import { zandalariTrollNameOneM, zandalariTrollNameOneF, zandalariTrollNameTwo } from "./zandalariTroll.js";
-
+import { bloodElfNameOneM, bloodElfNameOneF, bloodElfNameTwo } from "./races/bloodElf.js";
+import { darkironDwarfNameOneM, darkironDwarfNameOneF, darkironDwarfNameTwo } from "./races/darkironDwarf.js";
+import { dracthyrNameOneM, dracthyrNameOneF } from "./races/dracthyr.js";
+import { draeneiNameOneM, draeneiNameOneF, } from "./races/draenei.js";
+import { dwarfNameOneM, dwarfNameOneF, dwarfNameTwo } from "./races/dwarf.js";
+import { gnomeNameOneM, gnomeNameOneF, gnomeNameTwo } from "./races/gnome.js";
+import { goblinNameOneM, goblinNameOneF, goblinNameTwo } from "./races/goblin.js";
+import { highmountainTaurenNameOneM, highmountainTaurenNameOneF, highmountainTaurenNameTwo } from "./races/highmountainTauren.js";
+import { humanNameOneM, humanNameOneF, humanNameTwo } from "./races/human.js";
+import { kulTiranNameOneM, kulTiranNameOneF, kulTiranNameTwo } from "./races/kulTiran.js";
+import { lightforgedDraeneiNameOneM, lightforgedDraeneiNameOneF } from "./races/lightforgedDraenei.js";
+import { magharOrcNameOneM, magharOrcNameOneF, magharOrcNameTwo } from "./races/mag'harOrc.js";
+import { mechagnomeNameOneM, mechagnomeNameOneF, mechagnomeNameTwo } from "./races/mechagnome.js";
+import { nightborneNameOneM, nightborneNameOneF, nightborneNameTwo } from "./races/nightborne.js";
+import { nightElfNameOneM, nightElfNameOneF, nightElfNameTwo } from "./races/nightElf.js";
+import { orcNameOneM, orcNameOneF, orcNameTwo } from "./races/orc.js";
+import { pandarenNameOneM, pandarenNameOneF, pandarenNameTwo } from "./races/pandaren.js";
+import { taurenNameOneM, taurenNameOneF, taurenNameTwo } from "./races/tauren.js";
+import { trollNameOneM, trollNameOneF, trollNameTwo } from "./races/troll.js";
+import { forsakenNameOneM, forsakenNameOneF, forsakenNameTwo } from "./races/forsaken.js";
+import { voidElfNameOneM, voidElfNameOneF, voidElfNameTwo } from "./races/voidElf.js";
+import { vulperaNameOneM, vulperaNameOneF } from "./races/vulpera.js";
+import { worgenNameOneM, worgenNameOneF, worgenNameTwo } from "./races/worgen.js";
+import { zandalariTrollNameOneM, zandalariTrollNameOneF, zandalariTrollNameTwo } from "./races/zandalariTroll.js";
+import regionObject from "./regions/regionObject.js";
 
 const initApp = () => {
     document.getElementById("submitForm").addEventListener("submit", (event) => {
         event.preventDefault();
         clearSuggestions();
         const namesArray = generateNames();
-        console.log(namesArray);
         displayNames(namesArray);
     });
 }
@@ -42,6 +41,7 @@ const clearSuggestions = () => {
     const list = document.querySelector('.suggestionSection ol');
     list.innerHTML = "";
 }
+
 
 
 const generateNames = () => {
@@ -74,7 +74,10 @@ const generateNames = () => {
  */
         
         
-     
+    
+
+    
+
 
     if (raceSelection === "bloodElf" && sexSelection === "male") {
         var nameOne = bloodElfNameOneM;
@@ -313,6 +316,7 @@ const generateNames = () => {
         i++;
     }   
 
+
     const suggestion1 = nameOne[randomNumberArray1[3]] 
     
     const suggestion2 = nameOne[randomNumberArray1[2]] 
@@ -384,39 +388,45 @@ const generateNames = () => {
 const displayNames = (namesArray) => {
     const list = document.querySelector('.suggestionSection ol');
     const region = document.getElementById("submitSection__regions").value;
-    const server = regionObject[region][document.getElementById("submitSection__servers").value];
+    const server = regionObject[region] && regionObject[region][document.getElementById("submitSection__servers").value];
 
     namesArray.forEach(name => {
         list.innerHTML += `<ul><a>${name}</a> 
         </ul>`;
     });
 
+    
+
+
     const display = document.getElementById("suggestionSection");
     if (display.classList.contains("hidden")) display.classList.toggle("hidden");
 
-    document.getElementById('rolls').addEventListener('click', check);
-    function check(event) {
+    if (server) {
+        document.getElementById('rolls').addEventListener('click', check);
+        function check(event) {
         
-        var selection = event.target.textContent
+            var selection = event.target.textContent
 
-        let url = `'https://cors-anywhere.herokuapp.com/https://worldofwarcraft.blizzard.com/en-us/character/${region}/${server}/${selection}`;
-        function urlExists(url, callback) {
-        fetch(url, { method: 'head' })
-        .then(function(status) {
-        callback(status.ok)
-        });
+            let url = `'https://cors-anywhere.herokuapp.com/https://worldofwarcraft.blizzard.com/en-us/character/${region}/${server}/${selection}`;
+            function urlExists(url, callback) {
+                fetch(url, { method: 'head' })
+                .then(function(status) {
+                callback(status.ok)
+                });
+            }
+            urlExists(url, function(exists) {
+                if (exists) {
+                    alert(`${selection} is available on ${server}!`)
+                } else {
+                    alert(`${selection} is taken on ${server}.`)
+                }
+            });
         }
-        urlExists(url, function(exists) {
-        if (exists) {
-        alert(`${selection} is available on ${server}!`)
-        } else {
-        alert(`${selection} is taken on ${server}.`)
-        }
-        
-        });
+    }
 
-        
-        }  
+
+    
+      
 
         /* document.getElementById('button').addEventListener('reset', checked);
         function checked() {
@@ -429,21 +439,6 @@ const displayNames = (namesArray) => {
 
 //todo reset check() on roll name selection
 
-
-
-
-
-var regionObject = {
-    
-    "us": ["Aegwynn", "Aerie-Peak", "Agamaggan", "Aggramar", "Akama", "Alexstrasza", "Alleria", "Altar-of-Storms", "Alterac-Mountains", "Aman'Thul", "Andorhal", "Anetheron", "Antonidas", "Anub'arak", "Anvilmar", "Arathor", "Archimonde", "Area-52", "Argent-Dawn", "Arthas", "Arygos", "Auchindoun", "Azgalor", "Azjol-Nerub", "Azralon", "Azshara", "Azuremyst", "Baelgun", "Balnazzar", "Barthilas", "Black-Dragonflight", "Blackhand", "Blackrock", "Blackwater-Raiders", "Blackwing-Lair", "Blade's-Edge", "Bladefist", "Bleeding-Hollow", "Blood-Furnace", "Bloodhoof", "Bloodscalp", "Bonechewer", "Borean-Tundra", "Boulderfist", "Bronzebeard", "Burning-Blade", "Burning-Legion", "Caelestrasz", "Cairne", "Cenarion Circle", "Cenarius", "Cho'gall", "Chromaggus", "Coilfang", "Crushridge", "Daggerspine", "Dalaran", "Dalvengyr", "Dark-Iron", "Darkspear", "Darrowmere", "Dath'Remar", "Dawnbringer", "Deathwing", "Demon-Soul", "Dentarg", "Destromath", "Dethecus", "Detheroc", "Doomhammer", "Draenor", "Dragonblight", "Dragonmaw", "Drak'Tharon", "Drak'thul", "Draka", "Drakkari", "Dreadmaul", "Drenden", "Dunemaul", "Durotan", "Duskwood", "Earthen-Ring", "Echo-Isles", "Eitrigg", "Eldre'Thalas", "Elune", "Emerald-Dream", "Eonar", "Eredar", "Executus", "Exodar", "Farstriders", "Feathermoon", "Fenris", "Firetree", "Fizzcrank", "Frostmane", "Frostmourne", "Frostwolf", "Galakrond", "Gallywix", "Garithos", "Garona", "Garrosh", "Ghostlands", "Gilneas", "Gnomeregan", "Goldrinn", "Gorefiend", "Gorgonnash", "Greymane", "Grizzly-Hills", "Gul'dan", "Gundrak", "Gurubashi", "Hakkar", "Haomarush", "Hellscream", "Hydraxis", "Hyjal", "Icecrown", "Illidan", "Jaedenar", "Jubei'Thos", "Kael'thas", "Kalecgos", "Kargath", "Kel'Thuzad", "Khadgar", "Khaz-Modan", "Khaz'goroth", "Kil'jaeden", "Kilrogg", "Kirin-Tor", "Korgath", "Korialstrasz", "Kul Tiras", "Laughing-Skull", "Lethon", "Lightbringer", "Lightning's-Blade", "Lightninghoof", "Llane", "Lothar", "Madoran", "Maelstrom", "Magtheridon", "Maiev", "Mal'Ganis", "Malfurion", "Malorne", "Malygos", "Mannoroth", "Medivh", "Misha", "Mok'Nathal", "Moon-Guard", "Moonrunner", "Mug'thol", "Muradin", "Nagrand", "Nathrezim", "Nazgrel", "Nazjatar", "Nemesis", "Ner'zhul", "Nesingwary", "Nordrassil", "Norgannon", "Onyxia", "Perenolde", "Proudmoore", "Quel'Thalas", "Quel'dorei", "Ragnaros", "Ravencrest", "Ravenholdt", "Rexxar", "Rivendare", "Runetotem", "Sargeras", "Saurfang", "Scarlet-Crusade", "Scilla", "Sen'jin", "Sentinels", "Shadow-Council", "Shadowmoon", "Shadowsong", "Shandris", "Shattered-Halls", "Shattered-Hand", "Shu'halo", "Silver-Hand", "Silvermoon", "Sisters-of-Elune", "Skullcrusher", "Skywall", "Smolderthorn", "Spinebreaker", "Spirestone", "Staghelm", "Steamwheedle-Cartel", "Stonemaul", "Stormrage", "Stormreaver", "Stormscale", "Suramar", "Tanaris", "Terenas", "Terokkar", "Thaurissan", "The-Forgotten-Coast", "The-Scryers", "The-Underbog", "The-Venture-Co", "Thorium-Brotherhood", "Thrall", "Thunderhorn", "Thunderlord", "Tichondrius", "Tol-Barad", "Tortheldrin", "Trollbane", "Turalyon", "Twisting-Nether", "Uldaman", "Uldum", "Undermine", "Ursin", "Uther", "Vashj", "Vek'nilash", "Velen", "Warsong", "Whisperwind", "Wildhammer", "Windrunner", "Winterhoof", "Wyrmrest-Accord", "Ysera", "Ysondre", "Zangarmarsh", "Zul'jin", "Zuluhed"],
-    
-
-    "eu": ["Aegwynn", "Aerie-Peak", "Agamaggan", "Aggra-(Português)", "Aggramar", "Ahn'Qiraj", "Al'Akir", "Alexstrasza", "Alleria", "Alonsus", "Aman'Thul", "Ambossar", "Anachronos", "Anetheron", "Antonidas", "Anub'arak", "Arak-arahm", "Arathi", "Arathor", "Archimonde", "Area-52", "Argent-Dawn", "Arthas", "Arygos", "Ashenvale", "Aszune", "Auchindoun", "Azjol-Nerub	", "Azshara", "Azuregos", "Azuremyst", "Baelgun", "Balnazzar", "Blackhand", "Blackmoore", "Blackrock", "Blackscar", "Blade's-Edge", "Bladefist", "Bloodfeather", "Bloodhoof	", "Bloodscalp", "Blutkessel", "Booty-Bay", "Borean-Tundra", "Boulderfist", "Bronze-Dragonflight", "Bronzebeard", "Burning-Blade", "Burning-Legion", "Burning-Steppes", "C'Thun", "Chamber-of-Aspects", "Chants-éternels", "Cho'gall", "Chromaggus", "Colinas-Pardas", "Confrérie-du-Thorium", "Conseil-des-Ombres", "Crushridge", "Culte-de-la-Rive-noire", "Daggerspine", "Dalaran", "Dalvengyr", "Darkmoon-Faire", "Darksorrow", "Darkspear", "Das-Konsortium", "Das-Syndikat", "Deathguard", "Deathweaver", "Deathwing", "Deepholm", "Defias-Brotherhood", "Dentarg", "Der-Mithrilorden", "Der-Rat-von-Dalaran", "Der-abyssische-Rat", "Destromath", "Dethecus", "Die-Aldor", "Die-Arguswacht", "Die-Nachtwache", "Die-Silberne-Hand", "Die-Todeskrallen", "Die-ewige-Wacht", "Doomhammer", "Draenor", "Dragonblight", "Dragonmaw", "Drak'thul", "Drek'Thar", "Dun-Modr", "Dun-Morogh", "Dunemaul", "Durotan", "Earthen-Ring", "Echsenkessel", "Eitrigg", "Eldre'Thalas", "Elune", "Emerald-Dream", "Emeriss", "Eonar", "Eredar", "Eversong", "Executus", "Exodar", "Festung-der-Stürme", "Fordragon", "Forscherliga", "Frostmane", "Frostmourne", "Frostwhisper", "Frostwolf", "Galakrond", "Garona", "Garrosh", "Genjuros", "Ghostlands", "Gilneas", "Goldrinn", "Gordunni", "Gorgonnash", "Greymane", "Grim-Batol", "Grom", "Gul'dan", "Hakkar", "Haomarush", "Hellfire", "Hellscream", "Howling-Fjord", "Hyjal", "Illidan", "Jaedenar", "Kael'thas", "Karazhan", "Kargath", "Kazzak", "Kel'Thuzad", "Khadgar", "Khaz-Modan", "Khaz'goroth", "Kil'jaeden", "Kilrogg", "Kirin-Tor", "Kor'gall", "Krag'jin", "Krasus", "Kul-Tiras", "Kult-der-Verdammten", "La-Croisade-écarlate", "Laughing-Skull", "Les-Clairvoyants", "Les-Sentinelles", "Lich-King", "Lightbringer", "Lightning's-Blade", "Lordaeron", "Los-Errantes", "Lothar", "Madmortem", "Magtheridon", "Mal'Ganis", "Malfurion", "Malorne", "Malygos", "Mannoroth", "Marécage-de-Zangar", "Mazrigos", "Medivh", "Minahonda", "Moonglade", "Mug'thol", "Nagrand", "Nathrezim", "Naxxramas", "Nazjatar", "Nefarian", "Nemesis", "Neptulon", "Ner'zhul", "Nera'thor", "Nethersturm", "Nordrassil", "Norgannon", "Nozdormu", "Onyxia", "Outland", "Perenolde", "Pozzo-dell'Eternità", "Proudmoore", "Quel'Thalas", "Ragnaros", "Rajaxx", "Rashgarroth", "Ravencrest", "Ravenholdt", "Razuvious", "Rexxar", "Runetotem", "Runetotem", "Sargeras", "Saurfang", "Scarshield-Legion", "Sen'jin", "Shadowsong", "Shattered-Halls", "Shattered-Hand", "Shattrath", "Shen'dralar", "Silvermoon", "Sinstralis", "Skullcrusher", "Soulflayer", "Spinebreaker", "Sporeggar", "Steamwheedle-Cartel", "Stormrage", "Stormreaver", "Stormscale", "Sunstrider", "Suramar", "Sylvanas", "Taerar", "Talnivarr", "Tarren-Mill", "Teldrassil", "Temple-noir", "Terenas", "Terokkar", "Terrordar", "The-Maelstrom", "The-Sha'tar", "The-Venture-Co", "Theradras", "Thermaplugg", "Thrall", "Throk'Feroth", "Thunderhorn", "Tichondrius", "Tirion", "Todeswache", "Trollbane", "Turalyon", "Twilight's-Hammer", "Twisting-Nether", "Tyrande", "Uldaman", "Ulduar", "Uldum", "Un'Goro", "Varimathras", "Vashj", "Vek'lor", "Vek'nilash", "Vol'jin", "Wildhammer", "Wrathbringer", "Xavius", "Ysera", "Ysondre", "Zenedar", "Zirkel-des-Cenarius", "Zul'jin", "Zuluhed"],
-
-    "kr": ["Alexstrasza", "Azshara", "Burning-Legion", "Cenarius", "Dalaran", "Deathwing", "Durotan", "Garona", "Gul'dan", "Hellscream", "Hyjal", "Malfurion", "Norgannon", "Rexxar", "Stormrage", "Wildhammer", "Windrunner", "Zul'jin"],
-
-    "tw": ["Arthas", "Arygos", "Bleeding-Hollow", "Chillwind-Point", "Crystalpine-Stinger", "Demon-Fall-Canyon", "Dragonmaw", "Frostmane", "Hellscream", "Icecrown", "Krol-Blade", "Light's-Hope", "Menethil", "Nightsong", "Old-Blanchy", "Order-of-the-Cloud-Serpent", "Quel'dorei", "Shadowmoon", "Silverwing-Hold", "Skywall", "Spirestone", "Stormscale", "Sundown-Marsh", "Whisperwind", "World-Tree", "Wrathbringer", "Zealot-Blade"]
-}
   window.onload = function() {
     var regionSel = document.getElementById("submitSection__regions"),
         serverSel = document.getElementById("submitSection__servers");

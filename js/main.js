@@ -47,38 +47,54 @@ const clearSuggestions = () => {
 const generateNames = () => {
 
     var raceSelection = document.getElementById("submitSection__races").value;
-    var sexSelection = document.querySelector('input[name="gender"]:checked').value
+    var sexSelection = document.querySelector('input[name="gender"]:checked')
     
 
     //TODO: ternary statement refactor
 
 
+    if (!raceSelection) {
+        // randomly select a race if none is chosen
+        const availableRaces = [
+        "bloodElf",
+        "darkironDwarf",
+        "dracthyr",
+        "draenei",
+        "dwarf",
+        "forsaken",
+        "gnome",
+        "goblin",
+        "highmountainTauren",
+        "human",
+        "kulTiran",
+        "lightforgedDraenei",
+        "mag'harOrc",
+        "mechagnome",
+        "nightborne",
+        "nightElf",
+        "orc",
+        "pandaren",
+        "tauren",
+        "troll",
+        "voidElf",
+        "vulpera",
+        "worgen",
+        "zandalariTroll",
+        ];
 
+        raceSelection = availableRaces[Math.floor(Math.random() * availableRaces.length)];
+        console.log(`${raceSelection} racial names have been generated`)
+    }
 
+    if (sexSelection) {
+        sexSelection = sexSelection.value;
+    } else {
+        const availableSexes = ["male", "female"];
+        sexSelection = availableSexes[Math.floor(Math.random() * availableSexes.length)];
+        console.log(`${sexSelection} gendered names have been generated`)
+    }
 
-   /*  var nameOne =
-        sexSelection === "male" && raceSelection === "bloodElf"
-        ? raceSelection + "NameOneM"
-        : raceSelection + "NameOneF"
-
-
-    var nameTwo =
-        raceSelection === ("dracthyr", "draenei", "lightforgedDraenei", "vulpera")
-        ? nameTwo = nameOne
-        : raceSelection + "NameTwo"
-
-
-
-        console.log(nameOne)
-        console.log(nameTwo)
- */
-        
-        
     
-
-    
-
-
     if (raceSelection === "bloodElf" && sexSelection === "male") {
         var nameOne = bloodElfNameOneM;
         var nameTwo = bloodElfNameTwo 
@@ -389,14 +405,11 @@ const displayNames = (namesArray) => {
     const list = document.querySelector('.suggestionSection ol');
     const region = document.getElementById("submitSection__regions").value;
     const server = regionObject[region] && regionObject[region][document.getElementById("submitSection__servers").value];
-
+    
     namesArray.forEach(name => {
         list.innerHTML += `<ul><a>${name}</a> 
         </ul>`;
     });
-
-    
-
 
     const display = document.getElementById("suggestionSection");
     if (display.classList.contains("hidden")) display.classList.toggle("hidden");

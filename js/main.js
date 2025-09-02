@@ -42,8 +42,6 @@ const clearSuggestions = () => {
     list.innerHTML = "";
 }
 
-
-
 const generateNames = () => {
 
     var raceSelection = document.getElementById("submitSection__races").value;
@@ -403,54 +401,54 @@ const generateNames = () => {
 
 const displayNames = (namesArray) => {
     const list = document.querySelector('.suggestionSection ol');
-    const region = document.getElementById("submitSection__regions").value;
-    const server = regionObject[region] && regionObject[region][document.getElementById("submitSection__servers").value];
-    
+    list.innerHTML = ""; // clear old names
     namesArray.forEach(name => {
-        list.innerHTML += `<ul><a>${name}</a> 
-        </ul>`;
+        list.innerHTML += `<ul><a>${name}</a></ul>`;
     });
 
     const display = document.getElementById("suggestionSection");
     if (display.classList.contains("hidden")) display.classList.toggle("hidden");
 
-    if (server) {
-        document.getElementById('rolls').addEventListener('click', check);
-        function check(event) {
-        
-            var selection = event.target.textContent
+    document.querySelectorAll(".suggestionSection ol ul a").forEach(el => {
+        el.addEventListener("click", (event) => {
+            const selection = event.target.textContent;
+            const characterName = selection.toLowerCase();
 
-            let url = `'https://cors-anywhere.herokuapp.com/https://worldofwarcraft.blizzard.com/en-us/character/${region}/${server}/${selection}`;
-            function urlExists(url, callback) {
-                fetch(url, { method: 'head' })
-                .then(function(status) {
-                callback(status.ok)
-                });
+            const region = document.getElementById("submitSection__regions").value;
+            const serverIndex = document.getElementById("submitSection__servers").value;
+            const server = regionObject[region] && regionObject[region][serverIndex];
+
+            if (!server) {
+                console.error("No server selected");
+                return;
             }
-            urlExists(url, function(exists) {
-                if (exists) {
-                    alert(`${selection} is available on ${server}!`)
-                } else {
-                    alert(`${selection} is taken on ${server}.`)
+
+            const realmSlug = server.toLowerCase()
+            const token = "access_token_here"; 
+
+            const url = `https://${region}.api.blizzard.com/profile/wow/character/${realmSlug}/${characterName}/appearance?namespace=profile-${region}&locale=en_US`;
+            console.log(url);
+
+            fetch(url, {
+                method: "GET",
+                headers: {
+                    'Authorization': `Bearer ${token}`,
+                    'Content-Type': 'application/json'
                 }
-            });
-        }
-    }
-
-
-    
-      
-
-        /* document.getElementById('button').addEventListener('reset', checked);
-        function checked() {
-            
-        } */
-       
-}
-
-
-
-//todo reset check() on roll name selection
+            })
+            .then(response => {
+                console.log(`Status: ${response.status}`);
+                if (response.ok) {
+                    alert (`${selection} is taken on ${realmSlug}`);
+                } else {
+                    alert (`${selection} is available on ${realmSlug}`);
+                }
+            })
+            .then(data => console.log(data))
+            .catch(err => console.error(err));
+        });
+    });
+};
 
   window.onload = function() {
     var regionSel = document.getElementById("submitSection__regions"),
@@ -468,4 +466,3 @@ const displayNames = (namesArray) => {
     }
     regionSel.onchange();
 }
-

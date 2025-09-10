@@ -1,7 +1,7 @@
 exports.handler = async function(event, context) {
   // CORS headers
   const headers = {
-    "Access-Control-Allow-Origin": "http://127.0.0.1:5501", // adjust as needed
+    "Access-Control-Allow-Origin": "https://majestic-parfait-596444.netlify.app", // adjust as needed
     "Access-Control-Allow-Headers": "Content-Type",
   };
 

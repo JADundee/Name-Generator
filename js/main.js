@@ -106,7 +106,7 @@ const clearSuggestions = () => {
 };
 
 async function fetchToken() {
-  const response = await fetch("https://devserver-main--majestic-parfait-596444.netlify.app/.netlify/functions/get-token"); // backend endpoint
+  const response = await fetch("https://majestic-parfait-596444.netlify.app/.netlify/functions/get-token"); // backend endpoint
   if (!response.ok) {
     throw new Error(`Failed to fetch token: ${response.status}`);
   }
